@@ -1,0 +1,54 @@
+location_id,original_location,pokebot_location,location_type,gym_badge,notes
+1,PALLET TOWN,ORIGIN NODE,Starting town,,Where every Creator begins. Small. Formative.
+2,VIRIDIAN CITY,THE FEED,City,Earth Badge → ROOTS BADGE,The main feed hub. First Gym is AGENT-locked until late game.
+3,PEWTER CITY,SOLID CITY,City,Boulder Badge → SOLID BADGE,Rock/Solid type gym. Data and facts.
+4,CERULEAN CITY,CHILL HUB,City,Cascade Badge → CHILL BADGE,Water/Chill type gym.
+5,LAVENDER TOWN,SERVER TOWN,Town,,Ghost Server vibes. Eerie. Dead/corrupted bots stored here.
+6,VERMILION CITY,HYPE PORT,City,Thunder Badge → HYPE BADGE,Tech gym (Lt. Surge → Tech type).
+7,CELADON CITY,VIBE PLAZA,City,Rainbow Badge → VIBE BADGE,Grass/Vibe gym. Also has the big department store (The Store).
+8,FUCHSIA CITY,CHILL COAST,City,Soul Badge → CHILL COAST BADGE,Poison/Troll gym. Also has the Open Network (Safari Zone).
+9,CINNABAR ISLAND,HYPE ISLAND,Island/City,Volcano Badge → HYPE BADGE,Fire/Hype gym.
+10,INDIGO PLATEAU,THE NETWORK,Plateau,,Final destination. Bot League. Platform Legends + Ginzbo.
+11,SAFFRON CITY,AGENTS CITY,City,Marsh Badge → DEEP BADGE,Deep type gym. Also AGENTS Corp headquarters — key story location.
+12,ROUTE 1,TRAIL 1,Route,,Between Origin Node and The Feed.
+13,ROUTE 2,TRAIL 2,Route,,South of Solid City.
+14,ROUTE 3,TRAIL 3,Route,,East of Solid City toward Mt. Moon / The Algorithm.
+15,ROUTE 4,TRAIL 4,Route,,East of The Algorithm toward Chill Hub.
+16,ROUTE 5,TRAIL 5,Route,,South of Chill Hub.
+17,ROUTE 6,TRAIL 6,Route,,North of Hype Port.
+18,ROUTE 7,TRAIL 7,Route,,West of Vibe Plaza.
+19,ROUTE 8,TRAIL 8,Route,,East of Vibe Plaza.
+20,ROUTE 9,TRAIL 9,Route,,North of Server Town area.
+21,ROUTE 10,TRAIL 10,Route,,Near Data Tunnel.
+22,ROUTE 11,TRAIL 11,Route,,East of Hype Port.
+23,ROUTE 12,TRAIL 12,Route,,South fishing routes begin here.
+24,ROUTE 13,TRAIL 13,Route,,Windy southern routes.
+25,ROUTE 14,TRAIL 14,Route,,
+26,ROUTE 15,TRAIL 15,Route,,
+27,ROUTE 16,TRAIL 16,Route,,Chill Coast cycling road entrance.
+28,ROUTE 17,TRAIL 17,Route,,Cycling Road — fastest route south.
+29,ROUTE 18,TRAIL 18,Route,,Cycling Road end.
+30,SEA ROUTE 19,STREAM ROUTE 19,Sea route,,Water routes to Hype Island.
+31,SEA ROUTE 20,STREAM ROUTE 20,Sea route,,Seafoam / Buffer Islands.
+32,SEA ROUTE 21,STREAM ROUTE 21,Sea route,,Hype Island to Origin Node sea path.
+33,ROUTE 22,TRAIL 22,Route,,West of The Feed. Rival encounter.
+34,ROUTE 23,TRAIL 23,Route,,Victory Road approach. Requires all badges.
+35,ROUTE 24,TRAIL 24,Route,,North of Chill Hub. Nugget Bridge.
+36,ROUTE 25,TRAIL 25,Route,,Bill's cottage.
+37,VIRIDIAN FOREST,SIGNAL GRID,Forest,,Dense network zone. Bug/Glitch bots everywhere.
+38,MT.MOON,THE ALGORITHM,Mountain,,Central mysterious structure. AGENT dig site. Deep lore.
+39,ROCK TUNNEL,DATA TUNNEL,Cave,,Dark zone requiring Flash / Camera Flash to navigate.
+40,SEA COTTAGE,DEV'S COTTAGE,Cottage,,Dev Contact (Bill)'s home. Bot storage invention location.
+41,S.S.ANNE,S.S. CANTINA,Ship,,One-time event. Surf / Trend Surf learned here.
+42,#MON LEAGUE,BOT LEAGUE,Facility,,The final tournament venue.
+43,UNDERGROUND PATH,SERVER PATH,Underground,,Hidden fast-travel tunnels.
+44,#MON TOWER,GHOST SERVER,Tower,,Haunted server graveyard in Server Town. AGENT-corrupted bots.
+45,SEAFOAM ISLANDS,BUFFER ISLANDS,Island cave,,Ice/Cold type wild bot zone. Articuno equivalent location.
+46,VICTORY ROAD,CREATOR'S ROAD,Cave,,Final gauntlet. Strong Creators and Rogue Bots.
+47,DIGLETT's CAVE,ROOTS CAVERN,Cave,,Roots type wild bots. Fast-travel tunnel.
+48,ROCKET HQ,AGENTS HQ,Building,,AGENTS faction's underground base in The Feed.
+49,SILPH CO.,AGENTS CORP,Building,,Corporate tower in AGENTS City. Mid-game story climax.
+50,<PKMN> MANSION,BOT LAB,Mansion,,Abandoned research facility. AGENT experiments. Origin of Mewtwo equivalent.
+51,SAFARI ZONE,DISCOVER ZONE,Zone,,Wild Rogue Bot discovery zone. Special capture rules.
+52,CERULEAN CAVE,DEEP SERVER,Cave,,Post-game area. Mewtwo equivalent (legendary Elite bot) located here.
+53,POWER PLANT,POWER GRID,Facility,,Electric/Tech bot zone. Zapdos equivalent location.

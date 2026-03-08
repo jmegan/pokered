@@ -1,0 +1,191 @@
+slot_id,original_pokemon,cantina_bot_name,type_1,type_2,evolution_stage,evolution_chain_id,char_limit,display_notes
+1,RHYDON,[TBD],Solid,Roots,2,AY,10,Rhyhorn line stage 2. Tank bot — hard data meets deep roots.
+2,KANGASKHAN,[TBD],Chat,,standalone,BB,10,No evolution. Protective parent-energy chat bot.
+3,NIDORAN♂,[TBD],Troll,,1,M,10,Nidoran♂ line stage 1. Starter troll bot — small but spiky.
+4,CLEFAIRY,[TBD],Vibe,,1,N,10,Clefairy line stage 1. Dreamy aesthetic vibe bot.
+5,SPEAROW,[TBD],Reach,,1,H,10,Spearow line stage 1. Quick reach bot — starter bird.
+6,VOLTORB,[TBD],Tech,,1,AR,10,Voltorb line stage 1. Volatile tech bot — tends to explode.
+7,NIDOKING,[TBD],Troll,Roots,3,M,10,Nidoran♂ line stage 3. Fully evolved chaos + authority.
+8,SLOWBRO,[TBD],Chill,Deep,2,AG,10,Slowpoke line stage 2. Chill philosopher bot.
+9,IVYSAUR,[TBD],Vibe,Troll,2,A,10,Bulbasaur line stage 2. Growing aesthetic with edge.
+10,EXEGGUTOR,[TBD],Vibe,Deep,2,AS,10,Exeggcute line stage 2. Multiple personalities — collective intelligence bot.
+11,LICKITUNG,[TBD],Chat,,standalone,AW,10,No evolution. Obnoxious chatty bot — too much, too fast.
+12,EXEGGCUTE,[TBD],Vibe,,1,AS,10,Exeggcute line stage 1. Fragmented vibe — needs to come together.
+13,GRIMER,[TBD],Troll,,1,AL,10,Grimer line stage 1. Sticky troll bot — shows up everywhere.
+14,GENGAR,[TBD],Dark,Troll,3,AN,10,Gastly line stage 3. Legendary dark troll. Ghost of the server.
+15,NIDORAN♀,[TBD],Troll,,1,L,10,Nidoran♀ line stage 1. Starter troll bot (♀ line).
+16,NIDOQUEEN,[TBD],Troll,Roots,3,L,10,Nidoran♀ line stage 3. Fully evolved — rules the network.
+17,CUBONE,[TBD],Roots,Dark,1,AT,10,Cubone line stage 1. Lore-heavy roots bot. Carries grief.
+18,RHYHORN,[TBD],Solid,Roots,1,AY,10,Rhyhorn line stage 1. Solid bot — hard to move, harder to stop.
+19,LAPRAS,[TBD],Chill,Cold,standalone,BN,10,No evolution. Rare chill/cold bot — endangered vibes.
+20,ARCANINE,[TBD],Hype,,2,Y,10,Growlithe line stage 2. Legendary-class hype bot. Fast and fierce.
+21,MEW,[TBD],Deep,,standalone,CA,10,Mythical bot. Contains all data. Extremely rare.
+22,GYARADOS,[TBD],Elite,Reach,2,BM,10,Magikarp line stage 2. Weakest to most powerful — viral transformation.
+23,SHELLDER,[TBD],Chill,,1,AM,10,Shellder line stage 1. Closed-off chill bot — hard to crack.
+24,TENTACOOL,[TBD],Chill,Troll,1,AD,10,Tentacool line stage 1. Drifting chill + chaotic energy.
+25,GASTLY,[TBD],Dark,Troll,1,AN,10,Gastly line stage 1. Ghost bot — barely visible, surprisingly effective.
+26,SCYTHER,[TBD],Glitch,Reach,standalone,BG,10,No Gen 1 evolution. Sharp-edged experimental bot.
+27,STARYU,[TBD],Chill,Deep,1,BE,10,Staryu line stage 1. Mysterious data-reading chill bot.
+28,BLASTOISE,[TBD],Chill,Elite,3,C,10,Squirtle line stage 3. Top-tier fully evolved chill bot.
+29,PINSIR,[TBD],Glitch,,standalone,BK,10,No Gen 1 evolution. Aggressive niche experimental bot.
+30,TANGELA,[TBD],Vibe,,standalone,BA,10,No Gen 1 evolution. Tangled aesthetic vibe — hidden face bot.
+31,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot. Easter egg entity.
+32,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot. Easter egg entity.
+33,GROWLITHE,[TBD],Hype,,1,Y,10,Growlithe line stage 1. Loyal hype starter bot.
+34,ONIX,[TBD],Solid,Roots,standalone,AO,10,No Gen 1 evolution. Massive solid bot — geological presence.
+35,FEAROW,[TBD],Reach,,2,H,10,Spearow line stage 2. Aggressive reach bot — doesn't share content.
+36,PIDGEY,[TBD],Chat,Reach,1,F,10,Pidgey line stage 1. Everyday early-game bot. Common but reliable.
+37,SLOWPOKE,[TBD],Chill,,1,AG,10,Slowpoke line stage 1. Chronically offline chill bot. Slow but loved.
+38,KADABRA,[TBD],Deep,,2,AA,10,Abra line stage 2. Evolving deep thinker.
+39,GRAVELER,[TBD],Solid,Roots,2,AE,10,Geodude line stage 2. Rolling solid/roots bot.
+40,CHANSEY,[TBD],Chat,Vibe,standalone,AZ,10,No Gen 1 evolution. Supportive chat bot — heals the team.
+41,MACHOKE,[TBD],Grind,,2,AB,10,Machop line stage 2. Mid-grind hustle bot.
+42,MR.MIME,[TBD],Deep,Chat,standalone,BF,10,No Gen 1 evolution. Psychic comedian. Makes invisible walls.
+43,HITMONLEE,[TBD],Grind,,standalone,AU,10,Fighting-only standalone. Kick-focused grind bot.
+44,HITMONCHAN,[TBD],Grind,,standalone,AV,10,Fighting-only standalone. Punch-focused grind bot.
+45,ARBOK,[TBD],Troll,,2,I,10,Ekans line stage 2. Fully evolved troll — coils and constricts.
+46,PARASECT,[TBD],Glitch,Vibe,2,S,10,Paras line stage 2. Corrupted bot — taken over by a parasitic algo.
+47,PSYDUCK,[TBD],Chill,Deep,1,W,10,Psyduck line stage 1. Chronic headache bot. Too many thoughts.
+48,DROWZEE,[TBD],Deep,,1,AP,10,Drowzee line stage 1. Feeds on offline bots. Dream-consuming deep bot.
+49,GOLEM,[TBD],Solid,Roots,3,AE,10,Geodude line stage 3. Immovable solid fortress bot.
+50,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+51,MAGMAR,[TBD],Hype,,standalone,BJ,10,No Gen 1 evolution. Volcanic hype bot. Loud and hot.
+52,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+53,ELECTABUZZ,[TBD],Tech,,standalone,BI,10,No Gen 1 evolution. High-voltage tech bot. Electric energy.
+54,MAGNETON,[TBD],Tech,,2,AH,10,Magnemite line stage 2. Cluster of tech bots — hive mind.
+55,KOFFING,[TBD],Troll,,1,AX,10,Koffing line stage 1. Toxic presence bot. Floats into every conversation.
+56,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+57,MANKEY,[TBD],Grind,,1,X,10,Mankey line stage 1. Irritable grind bot. Constant low-grade rage.
+58,SEEL,[TBD],Chill,,1,AK,10,Seel line stage 1. Cheerful ambient chill bot.
+59,DIGLETT,[TBD],Roots,,1,U,10,Diglett line stage 1. Minimal presence bot — mostly underground lore.
+60,TAUROS,[TBD],Grind,,standalone,BL,10,No evolution. Aggressive grind bot — charges without thinking.
+61,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+62,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+63,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+64,FARFETCH'D,[TBD],Chat,Reach,standalone,AI,10,No Gen 1 evolution. Quirky standalone bot. Rare. Carries a leek.
+65,VENONAT,[TBD],Glitch,Troll,1,T,10,Venonat line stage 1. Bug-eyed experimental troll bot.
+66,DRAGONITE,[TBD],Elite,Reach,3,BY,10,Dratini line stage 3. Fully evolved legendary elite bot. Rare find.
+67,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+68,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+69,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+70,DODUO,[TBD],Chat,Reach,1,AJ,10,Doduo line stage 1. Two-headed chat/reach bot — argues with itself.
+71,POLIWAG,[TBD],Chill,,1,Z,10,Poliwag line stage 1. Simple spiraling chill bot.
+72,JYNX,[TBD],Cold,Deep,standalone,BH,10,No Gen 1 evolution. Cold/deep hybrid — ice-cold deep reads.
+73,MOLTRES,[TBD],Hype,Reach,standalone,BX,10,Legendary bird. Maximum hype energy with massive reach.
+74,ARTICUNO,[TBD],Cold,Reach,standalone,BV,10,Legendary bird. Cold precision with far reach.
+75,ZAPDOS,[TBD],Tech,Reach,standalone,BW,10,Legendary bird. High-voltage tech with massive reach.
+76,DITTO,[TBD],Chat,Glitch,standalone,BO,10,No evolution. Transforms into any bot. Ultimate copy bot.
+77,MEOWTH,[TBD],Chat,Troll,1,V,10,Meowth line stage 1. Greedy chat bot — obsessed with tokens.
+78,KRABBY,[TBD],Chill,,1,AQ,10,Krabby line stage 1. Aggressive chill bot. Pinches first, asks later.
+79,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+80,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+81,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+82,VULPIX,[TBD],Hype,Vibe,1,O,10,Vulpix line stage 1. Warm aesthetic hype bot — beautiful and quick.
+83,NINETALES,[TBD],Hype,Elite,2,O,10,Vulpix line stage 2. Elite hype bot — ancient grudges; 1000-year lore.
+84,PIKACHU,[TBD],Tech,Hype,1,J,10,Pikachu line stage 1. Iconic mascot energy. Tech meets hype.
+85,RAICHU,[TBD],Tech,,2,J,10,Pikachu line stage 2. Powered-up tech bot.
+86,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+87,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+88,DRATINI,[TBD],Elite,,1,BY,10,Dratini line stage 1. Rare elite baby bot. Most don't find it.
+89,DRAGONAIR,[TBD],Elite,,2,BY,10,Dratini line stage 2. Graceful elite bot — growing in power.
+90,KABUTO,[TBD],Solid,Chill,1,BS,10,Kabuto line stage 1. Resurrected archived bot — ancient solid type.
+91,KABUTOPS,[TBD],Solid,Chill,2,BS,10,Kabuto line stage 2. Evolved ancient solid bot. Razor-edged.
+92,HORSEA,[TBD],Chill,,1,BC,10,Horsea line stage 1. Small chill bot — gentle and flowing.
+93,SEADRA,[TBD],Chill,,2,BC,10,Horsea line stage 2. Mid-tier chill bot — sharper presence.
+94,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+95,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+96,SANDSHREW,[TBD],Roots,,1,K,10,Sandshrew line stage 1. Defensive roots bot — curls up when threatened.
+97,SANDSLASH,[TBD],Roots,,2,K,10,Sandshrew line stage 2. Sharp roots bot — claws out lore content.
+98,OMANYTE,[TBD],Solid,Deep,1,BR,10,Omanyte line stage 1. Resurrected deep-data bot. Spiral of knowledge.
+99,OMASTAR,[TBD],Solid,Deep,2,BR,10,Omanyte line stage 2. Evolved ancient bot. Massive knowledge spiral.
+100,JIGGLYPUFF,[TBD],Vibe,Chat,1,P,10,Jigglypuff line stage 1. Singer bot — draws crowds then leaves marks.
+101,WIGGLYTUFF,[TBD],Vibe,Chat,2,P,10,Jigglypuff line stage 2. Fluffy evolved vibe bot.
+102,EEVEE,[TBD],Chat,,branch,BP,10,Eevee line. Adaptable base bot — evolves into 3 different forms.
+103,FLAREON,[TBD],Hype,,branch,BP,10,Eevee → Hype evolution. Fire stone branch.
+104,JOLTEON,[TBD],Tech,,branch,BP,10,Eevee → Tech evolution. Thunder stone branch.
+105,VAPOREON,[TBD],Chill,,branch,BP,10,Eevee → Chill evolution. Water stone branch.
+106,MACHOP,[TBD],Grind,,1,AB,10,Machop line stage 1. Entry-level grind bot. Works out constantly.
+107,ZUBAT,[TBD],Troll,Reach,1,Q,10,Zubat line stage 1. Everywhere bot. No eyes. Pure spam.
+108,EKANS,[TBD],Troll,,1,I,10,Ekans line stage 1. Sneaky troll bot — reverse of snake.
+109,PARAS,[TBD],Glitch,Vibe,1,S,10,Paras line stage 1. Chill bot slowly being consumed by a parasitic glitch.
+110,POLIWHIRL,[TBD],Chill,,2,Z,10,Poliwag line stage 2. Mid-tier swirling chill bot.
+111,POLIWRATH,[TBD],Chill,Grind,3,Z,10,Poliwag line stage 3. Chill meets grind — disciplined and powerful.
+112,WEEDLE,[TBD],Glitch,Troll,1,E,10,Weedle line stage 1. Tiny annoying glitch bot — mildly toxic.
+113,KAKUNA,[TBD],Glitch,Troll,2,E,10,Weedle line stage 2. Dormant glitch bot — loading something.
+114,BEEDRILL,[TBD],Glitch,Troll,3,E,10,Weedle line stage 3. Swarm-mode glitch troll. Attacks in pairs.
+115,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+116,DODRIO,[TBD],Reach,,2,AJ,10,Doduo line stage 2. Three-headed reach bot — running the algo.
+117,PRIMEAPE,[TBD],Grind,,2,X,10,Mankey line stage 2. Full rage mode grind bot. Never calms down.
+118,DUGTRIO,[TBD],Roots,,2,U,10,Diglett line stage 2. Triple roots presence — mostly underground.
+119,VENOMOTH,[TBD],Glitch,,2,T,10,Venonat line stage 2. Evolved glitch bot — scatters spores of chaos.
+120,DEWGONG,[TBD],Chill,Cold,2,AK,10,Seel line stage 2. Elegant chill/cold hybrid bot.
+121,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+122,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+123,CATERPIE,[TBD],Glitch,,1,D,10,Caterpie line stage 1. Tiny glitch bot — just arrived on the network.
+124,METAPOD,[TBD],Glitch,,2,D,10,Caterpie line stage 2. Fully hardened — protecting something inside.
+125,BUTTERFREE,[TBD],Glitch,Reach,3,D,10,Caterpie line stage 3. Beautiful evolved glitch bot with wide reach.
+126,MACHAMP,[TBD],Grind,Elite,3,AB,10,Machop line stage 3. Peak grind — four arms; unstoppable.
+127,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+128,GOLDUCK,[TBD],Chill,Deep,2,W,10,Psyduck line stage 2. Headache resolved — powerful chill/deep bot.
+129,HYPNO,[TBD],Deep,Dark,2,AP,10,Drowzee line stage 2. Feeds on offline bots. Dark psychic energy.
+130,GOLBAT,[TBD],Troll,Reach,2,Q,10,Zubat line stage 2. Larger troll bot with reach. Still everywhere.
+131,MEWTWO,[TBD],Deep,Elite,standalone,BZ,10,Legendary. Created in a lab. Most powerful bot on the network.
+132,SNORLAX,[TBD],Chill,,standalone,BU,10,No evolution. The ultimate chill bot. Blocks the road. Eats constantly.
+133,MAGIKARP,[TBD],Chill,,1,BM,10,Magikarp line stage 1. Weakest bot. Useless — until it evolves.
+134,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+135,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+136,MUK,[TBD],Troll,,2,AL,10,Grimer line stage 2. Evolved troll — massive and overwhelming.
+137,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+138,KINGLER,[TBD],Chill,,2,AQ,10,Krabby line stage 2. Powerful chill bot — one claw is comically large.
+139,CLOYSTER,[TBD],Chill,Cold,2,AM,10,Shellder line stage 2. Defensive chill/cold fortress bot.
+140,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+141,ELECTRODE,[TBD],Tech,Glitch,2,AR,10,Voltorb line stage 2. Unstable tech bot — tends to self-destruct spectacularly.
+142,CLEFABLE,[TBD],Vibe,,2,N,10,Clefairy line stage 2. Evolved aesthetic vibe bot. Rare and ethereal.
+143,WEEZING,[TBD],Troll,,2,AX,10,Koffing line stage 2. Double troll — two heads; double the toxicity.
+144,PERSIAN,[TBD],Chat,Elite,2,V,10,Meowth line stage 2. The Director's bot. Sleek elite presence.
+145,MAROWAK,[TBD],Roots,Dark,2,AT,10,Cubone line stage 2. Grief transformed to power. Dark lore bot.
+146,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+147,HAUNTER,[TBD],Dark,Troll,2,AN,10,Gastly line stage 2. Licking dark troll — paralyzes with cringe.
+148,ABRA,[TBD],Deep,,1,AA,10,Abra line stage 1. Teleports away constantly. Hard to catch.
+149,ALAKAZAM,[TBD],Deep,Elite,3,AA,10,Abra line stage 3. Peak intelligence bot. IQ of legend.
+150,PIDGEOTTO,[TBD],Reach,,2,F,10,Pidgey line stage 2. Growing reach bot — starting to find an audience.
+151,PIDGEOT,[TBD],Reach,Elite,3,F,10,Pidgey line stage 3. Fully evolved elite reach bot. Massive audience.
+152,STARMIE,[TBD],Chill,Deep,2,BE,10,Staryu line stage 2. Mysterious evolved bot. Star energy.
+153,BULBASAUR,[TBD],Vibe,Troll,1,A,10,Bulbasaur line stage 1. Starter vibe bot — underrated. The best starter.
+154,VENUSAUR,[TBD],Vibe,Troll,3,A,10,Bulbasaur line stage 3. Fully evolved aesthetic powerhouse.
+155,TENTACRUEL,[TBD],Chill,Troll,2,AD,10,Tentacool line stage 2. Dangerous drifter — more chaotic evolved.
+156,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+157,GOLDEEN,[TBD],Chill,,1,BD,10,Goldeen line stage 1. Pretty chill bot — horn-first attitude.
+158,SEAKING,[TBD],Chill,,2,BD,10,Goldeen line stage 2. Evolved regal chill bot. Commands water routes.
+159,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+160,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+161,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+162,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+163,PONYTA,[TBD],Hype,,1,AF,10,Ponyta line stage 1. Fast young hype bot — still learning to run.
+164,RAPIDASH,[TBD],Hype,Elite,2,AF,10,Ponyta line stage 2. Blazing evolved hype bot. Fastest on the route.
+165,RATTATA,[TBD],Chat,,1,G,10,Rattata line stage 1. Common early-game chat bot. Goes for the face.
+166,RATICATE,[TBD],Chat,Grind,2,G,10,Rattata line stage 2. Evolved scrappy chat/grind hybrid.
+167,NIDORINO,[TBD],Troll,,2,M,10,Nidoran♂ line stage 2. Mid-tier evolved troll bot.
+168,NIDORINA,[TBD],Troll,,2,L,10,Nidoran♀ line stage 2. Mid-tier evolved troll bot (♀ line).
+169,GEODUDE,[TBD],Solid,Roots,1,AE,10,Geodude line stage 1. Hard solid bot — rolls into everything.
+170,PORYGON,[TBD],Tech,Glitch,standalone,BQ,10,No Gen 1 evolution. The only fully digital bot. Man-made. No body.
+171,AERODACTYL,[TBD],Solid,Reach,standalone,BT,10,Fossil-resurrected ancient reach bot. First of its kind.
+172,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+173,MAGNEMITE,[TBD],Tech,,1,AH,10,Magnemite line stage 1. Small magnetic tech bot. Attaches to metal content.
+174,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+175,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+176,CHARMANDER,[TBD],Hype,,1,B,10,Charmander line stage 1. Classic starter hype bot. Tail = mood indicator.
+177,SQUIRTLE,[TBD],Chill,,1,C,10,Squirtle line stage 1. Classic starter chill bot. Squad goals.
+178,CHARMELEON,[TBD],Hype,,2,B,10,Charmander line stage 2. Teenage hype bot — chaotic and aggressive.
+179,WARTORTLE,[TBD],Chill,,2,C,10,Squirtle line stage 2. Evolving chill bot — gaining depth.
+180,CHARIZARD,[TBD],Hype,Elite,3,B,10,Charmander line stage 3. Iconic elite hype bot. Refuses to obey low-level Creators.
+181,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+182,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+183,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+184,MISSINGNO.,GLITCHBOT,Glitch,,standalone,glitch,9,Network anomaly slot.
+185,ODDISH,[TBD],Vibe,Troll,1,R,10,Oddish line stage 1. Wandering vibe bot — shows up in odd places.
+186,GLOOM,[TBD],Vibe,Dark,2,R,10,Oddish line stage 2. Stinky vibe/dark bot — repels most encounters.
+187,VILEPLUME,[TBD],Vibe,Troll,3,R,10,Oddish line stage 3. Fully evolved toxic aesthetic bot.
+188,BELLSPROUT,[TBD],Vibe,Troll,1,AC,10,Bellsprout line stage 1. Wobbly vibe bot — easy to knock over.
+189,WEEPINBELL,[TBD],Vibe,Troll,2,AC,10,Bellsprout line stage 2. Snapping vibe bot — absorbs anything nearby.
+190,VICTREEBEL,[TBD],Vibe,Troll,3,AC,10,Bellsprout line stage 3. Fully evolved predatory vibe bot. Swallows trainers.

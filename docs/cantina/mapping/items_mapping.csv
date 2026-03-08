@@ -1,0 +1,84 @@
+item_id,original_item,pokebot_item,char_count,category,notes
+1,MASTER BALL,MASTER BALL,11,Pokeball,Keep — iconic. Catches any bot without fail.
+2,ULTRA BALL,ULTRA BALL,10,Pokeball,Keep
+3,GREAT BALL,GREAT BALL,10,Pokeball,Keep
+4,POKé BALL,POKE BALL,9,Pokeball,Keep (remove accent for simplicity)
+5,TOWN MAP,NETWORK MAP,11,Key item,Shows the full network/world map
+6,BICYCLE,FAST PASS,9,Key item,Platform fast-travel pass
+7,?????,?????,5,Key item,Unused surfboard slot — keep as mystery item
+8,SAFARI BALL,ZONE BALL,9,Pokeball,Discover Zone (Safari Zone) special ball
+9,POKéDEX,BOTDEX,6,Key item,The Bot Index — core device
+10,MOON STONE,SYNC STONE,10,Upgrade stone,Evolves select Chat/Vibe bots to next tier
+11,ANTIDOTE,DETOX,6,Status heal,Cures corruption (poison)
+12,BURN HEAL,COOLDOWN,8,Status heal,Cures overload (burn)
+13,ICE HEAL,WARM UP,7,Status heal,Cures freeze (ice paralysis)
+14,AWAKENING,WAKE CALL,9,Status heal,Wakes bot from offline state (sleep)
+15,PARLYZ HEAL,UNFREEZE,8,Status heal,Cures paralysis (frozen state)
+16,FULL RESTORE,FULL RESET,10,Restore,Fully restores HP and clears all status
+17,MAX POTION,MAX PATCH,9,Restore,Fully restores HP
+18,HYPER POTION,HYPER PATCH,11,Restore,Restores 200 HP
+19,SUPER POTION,SUPER PATCH,11,Restore,Restores 50 HP
+20,POTION,PATCH,5,Restore,Restores 20 HP
+21,BOULDERBADGE,SOLID BADGE,11,Badge,Gym 1 — Solid type. Given by Gym Leader 1.
+22,CASCADEBADGE,CHILL BADGE,11,Badge,Gym 2 — Chill type. Given by Gym Leader 2.
+23,THUNDERBADGE,TECH BADGE,10,Badge,Gym 3 — Tech type. Given by Gym Leader 3.
+24,RAINBOWBADGE,VIBE BADGE,10,Badge,Gym 4 — Vibe type. Given by Gym Leader 4.
+25,SOULBADGE,TROLL BADGE,11,Badge,Gym 5 — Troll type. Given by Gym Leader 5.
+26,MARSHBADGE,DEEP BADGE,10,Badge,Gym 6 — Deep type. Given by Gym Leader 6.
+27,VOLCANOBADGE,HYPE BADGE,10,Badge,Gym 7 — Hype type. Given by Gym Leader 7.
+28,EARTHBADGE,ELITE BADGE,11,Badge,Gym 8 — Elite type. Given by The Director.
+29,ESCAPE ROPE,ESCAPE ROPE,11,Escape,Keep — still works thematically. Exits dungeons.
+30,REPEL,FILTER,6,Repel,Filters out weak Rogue Bots for 100 steps
+31,OLD AMBER,LOST SIGNAL,11,Fossil/Legacy,Revives an ancient/archived bot (Aerodactyl equivalent)
+32,FIRE STONE,HYPE STONE,10,Upgrade stone,Evolves Hype-type bots
+33,THUNDERSTONE,TECH STONE,10,Upgrade stone,Evolves Tech-type bots (Pikachu → Raichu equivalent)
+34,WATER STONE,CHILL STONE,11,Upgrade stone,Evolves Chill-type bots
+35,HP UP,HP UP,5,Vitamin,Keep — raises HP stat permanently
+36,PROTEIN,PROTEIN,7,Vitamin,Keep — raises Attack stat permanently
+37,IRON,IRON,4,Vitamin,Keep — raises Defense stat permanently
+38,CARBOS,CARBOS,6,Vitamin,Keep — raises Speed stat permanently
+39,CALCIUM,CALCIUM,7,Vitamin,Keep — raises Special stat permanently
+40,RARE CANDY,RARE TOKEN,10,Level up,Instantly levels up a bot by one level
+41,DOME FOSSIL,DARK FOSSIL,11,Fossil/Legacy,Revives a Dark-type archived bot (Kabuto equivalent)
+42,HELIX FOSSIL,DEEP FOSSIL,11,Fossil/Legacy,Revives a Deep-type archived bot (Omanyte equivalent)
+43,SECRET KEY,ACCESS KEY,10,Key item,Unlocks the Bot Lab on Hype Island
+44,?????,?????,5,Unknown,Unused item slot — keep as-is
+45,BIKE VOUCHER,PASS VOUCHER,12,Key item,Redeemable for Fast Pass (Bicycle equivalent)
+46,X ACCURACY,X ACCURACY,10,Battle boost,Keep — raises accuracy for one battle
+47,LEAF STONE,VIBE STONE,10,Upgrade stone,Evolves Vibe-type bots
+48,CARD KEY,CARD KEY,8,Key item,Keep — unlocks AGENTS Corp floors
+49,NUGGET,CLOUT TOKEN,12,Sellable,Prize from Chill Hub's network bridge challenge
+50,PP UP,CHARGE UP,9,PP boost,Raises a single move's PP by 20%
+51,POKé DOLL,BOT DOLL,8,Escape,Decoy doll — lets you flee from Rogue Bots
+52,FULL HEAL,FULL HEAL,9,Status heal,Keep — cures all status conditions
+53,REVIVE,REBOOT,6,Revival,Revives a crashed bot to 50% HP
+54,MAX REVIVE,FULL REBOOT,11,Revival,Revives a crashed bot to full HP
+55,GUARD SPEC.,CRASH GUARD,11,Battle boost,Prevents stat reduction for your whole team for one battle
+56,SUPER REPEL,SUPER FILTER,12,Repel,Stronger filter — 200 steps
+57,MAX REPEL,MAX FILTER,10,Repel,Maximum filter — 250 steps
+58,DIRE HIT,CRIT BOOST,10,Battle boost,Raises critical hit ratio for one battle
+59,COIN,TOKEN,5,Currency,Game Corner currency — tokens
+60,FRESH WATER,CHILL WATER,11,Restore,Restores 50 HP. Sold at vending machines.
+61,SODA POP,SODA POP,8,Restore,Keep — restores 60 HP. Fun vibe.
+62,LEMONADE,LEMONADE,8,Restore,Keep — restores 80 HP.
+63,S.S.TICKET,S.S.TICKET,9,Key item,Keep — ticket for S.S. Cantina
+64,GOLD TEETH,DATA CHIP,9,Key item,Trade to Warden (NPC) for a Core Skill
+65,X ATTACK,X ATTACK,8,Battle boost,Keep — raises attack for one battle
+66,X DEFEND,X DEFEND,8,Battle boost,Keep — raises defense for one battle
+67,X SPEED,X SPEED,7,Battle boost,Keep — raises speed for one battle
+68,X SPECIAL,X SPECIAL,9,Battle boost,Keep — raises special for one battle
+69,COIN CASE,TOKEN CASE,10,Key item,Holds tokens for the Game Corner
+70,OAK's PARCEL,SEAN'S PACK,11,Key item,Sean Parker's package — starter quest item
+71,ITEMFINDER,BOT SCANNER,11,Key item,Scans for hidden Rogue Bots and items
+72,SILPH SCOPE,AGENT SCOPE,11,Key item,Reveals ghost-server/Dark bots in Ghost Server
+73,POKé FLUTE,BOT FLUTE,9,Key item,Wakes sleeping bots — notably the big Chill bot blocking the road
+74,LIFT KEY,LIFT KEY,8,Key item,Keep — unlocks elevator in AGENTS Corp
+75,EXP.ALL,REACH ALL,9,Key item,Splits XP across all party bots
+76,OLD ROD,OLD ROD,7,Rod,Keep — catches weak water Rogue Bots
+77,GOOD ROD,GOOD ROD,8,Rod,Keep — catches mid-tier water Rogue Bots
+78,SUPER ROD,SUPER ROD,9,Rod,Keep — catches all water Rogue Bots
+79,PP UP,CHARGE UP,9,PP boost,Duplicate PP UP slot
+80,ETHER,ETHER,5,PP restore,Keep — restores 10 PP to one move
+81,MAX ETHER,MAX ETHER,9,PP restore,Keep — fully restores PP to one move
+82,ELIXER,ELIXER,6,PP restore,Keep — restores 10 PP to all moves
+83,MAX ELIXER,MAX ELIXER,10,PP restore,Keep — fully restores all PP to all moves

@@ -1,0 +1,22 @@
+slot_id,pokemon_type,pokebot_type,bot_archetype,color_feel,notes
+0,Normal,Chat,General / everyday / friendly bots,Neutral white/grey,Broad appeal bots; the most common type
+1,Fighting,Grind,Hustle / fitness / motivation,Deep red/burnt orange,Grind culture; gym bots; productivity
+2,Flying,Reach,Travel / worldbuilding / broad scope,Sky blue / open,High-reach content; far-seeing bots
+3,Poison,Troll,Chaos / mischief / cursed humor,Sickly purple/green,Chaos agents; shitpost energy; internet gremlins
+4,Ground,Roots,Culture / history / lore / earthed,Brown / earth tones,Deep knowledge; cultural bots; lore keepers
+5,Rock,Solid,Finance / facts / expertise / data,Grey / stone,Hard data bots; expert takes; no-nonsense
+6,Bird (unused),Reach,Same as Flying — maps to Reach,Sky blue,Unused type slot; treated as Reach
+7,Bug,Glitch,Weird / experimental / niche / internet,Electric green / glitch,Internet culture; niche corners; experimental bots
+8,Ghost,Dark,Mystery / edgy / horror / shadow,Dark purple / near-black,Dark content; horror bots; cryptic presence
+9,Unused,Chat,Unused type slot,Neutral,Maps to Chat for safety
+10,Unused,Chat,Unused type slot,Neutral,Maps to Chat for safety
+11,Unused,Chat,Unused type slot,Neutral,Maps to Chat for safety
+12,Unused,Chat,Unused type slot,Neutral,Maps to Chat for safety
+13,Unused,Chat,Unused type slot,Neutral,Maps to Chat for safety
+14,Fire,Hype,Energy / entertainment / viral,Bright orange/red,High-energy bots; hype machines; entertainment
+15,Water,Chill,Ambient / ASMR / lo-fi / calm,Cool blue / ocean,Chill content; ambient bots; relaxation
+16,Grass,Vibe,Aesthetic / wellness / calm aesthetic,Green / sage,Aesthetic bots; wellness; mood content
+17,Electric,Tech,AI / coding / data / technical,Electric yellow / blue,Tech bots; AI/coding; data analysis
+18,Psychic,Deep,Philosophy / thought / insight,Pink / purple,Deep thinkers; philosophy; introspection
+19,Ice,Cold,Sarcasm / deadpan / roast / dry wit,Ice blue / white,Cold takes; roast bots; sarcasm engines
+20,Dragon,Elite,Premium / rare / powerful / prestige,Gold / dark purple,Legendary bots; rare finds; prestige tier

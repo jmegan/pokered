@@ -1,0 +1,166 @@
+move_id,original_move,pokebot_move,move_type,power,accuracy,pp,effect_category,char_count,notes
+1,POUND,POST,Chat,40,100,35,Direct attack,4,Basic content drop — the fundamental creator action
+2,KARATE CHOP,HARD DROP,Grind,50,100,25,Direct attack,9,Forceful content release
+3,DOUBLESLAP,DOUBLE TAP,Chat,15,85,10,Multi-hit,10,The double-tap like; hits 2-5 times
+4,COMET PUNCH,REPLY STORM,Chat,18,85,15,Multi-hit,11,Flood the replies; hits 2-5 times
+5,MEGA PUNCH,MEGA POST,Chat,80,85,20,Direct attack,9,High-effort post with reach
+6,PAY DAY,CASH OUT,Solid,40,100,20,Special,8,Earns tokens during battle
+7,FIRE PUNCH,HOT TAKE,Hype,75,100,15,Direct + burn,8,May cause burn (overload)
+8,ICE PUNCH,COLD TAKE,Cold,75,100,15,Direct + freeze,9,May cause freeze (paralysis variant)
+9,THUNDERPUNCH,SHOCK REPLY,Tech,75,100,15,Direct + paralyze,11,May cause paralysis (freeze)
+10,SCRATCH,QUICK CUT,Glitch,40,100,35,Direct attack,9,Fast basic edit strike
+11,VICEGRIP,GRIP,Grind,55,100,30,Direct attack,4,Clamps down; no escape
+12,GUILLOTINE,HARD CUT,Glitch,—,30,5,One-hit KO,8,Instant delete. One-shot if it lands.
+13,RAZOR WIND,CLIP DROP,Reach,80,100,10,Two-turn attack,9,Charges then releases a viral clip
+14,SWORDS DANCE,TRENDING,Hype,—,—,30,Stat boost (ATK +2),8,Goes viral; sharply raises attack
+15,CUT,EDIT,Chat,50,95,30,HM field move,4,Core Skill — trims content and paths
+16,GUST,BOOST,Reach,40,100,35,Direct attack,5,Pushes content into the feed
+17,WING ATTACK,REACH OUT,Reach,35,100,35,Direct attack,9,High-reach content push
+18,WHIRLWIND,RESHARE,Reach,—,85,20,Force switch,7,Forces opponent to reshuffle their team
+19,FLY,GO LIVE,Reach,70,95,15,HM two-turn,7,Core Skill — charges then goes live
+20,BIND,HOOK,Troll,15,85,20,Trap,4,Hooks the opponent; traps for 2-5 turns
+21,SLAM,FULL SEND,Chat,80,75,20,Direct attack,9,No filter; pure send
+22,VINE WHIP,REPLY CHAIN,Vibe,35,100,10,Direct attack,11,Chain of replies pulling opponent in
+23,STOMP,DOWNVOTE,Grind,65,100,20,Direct + flinch,8,May cause flinch. Community pushback.
+24,DOUBLE KICK,DOUBLE POST,Grind,30,100,30,Two-hit,11,Back-to-back posts
+25,MEGA KICK,MEGA DROP,Grind,120,75,5,Direct attack,9,Massive single drop
+26,JUMP KICK,VIRAL JUMP,Grind,70,95,25,Direct + recoil,10,High-risk leap; damages self if it misses
+27,ROLLING KICK,FEED ROLL,Grind,60,85,15,Direct + flinch,9,Rolls through the feed
+28,SAND-ATTACK,SPAM FILTER,Roots,—,100,15,Accuracy lower,11,Lowers opponent's accuracy with noise
+29,HEADBUTT,BOLD POST,Chat,70,100,15,Direct + flinch,9,May cause flinch; shameless post
+30,HORN ATTACK,PING,Chat,65,100,25,Direct attack,4,Direct message attack
+31,FURY ATTACK,REPLY ALL,Chat,15,85,20,Multi-hit,9,Hits 2-5 times; floods the replies
+32,HORN DRILL,DEEP LINK,Solid,—,30,5,One-hit KO,9,Drops a deep link that one-shots
+33,TACKLE,ENGAGE,Chat,35,95,35,Direct attack,6,Basic engagement attack
+34,BODY SLAM,FEATURE DROP,Chat,85,100,15,Direct + paralyze,12,May cause freeze; featured content drop
+35,WRAP,THREAD,Vibe,15,85,20,Trap,6,Wraps opponent in a thread; traps 2-5 turns
+36,TAKE DOWN,CALL OUT,Grind,90,85,20,Direct + recoil,8,Public callout; recoil damage to self
+37,THRASH,RANT,Chat,90,100,20,Confusion recoil,4,Multi-turn rant; causes self-confusion
+38,DOUBLE-EDGE,DOUBLE DOWN,Chat,100,100,15,Direct + recoil,11,Commits fully; takes recoil damage
+39,TAIL WHIP,TEASE,Chat,—,100,30,Defense lower,5,Teases opponent; lowers their defense
+40,POISON STING,TROLL REPLY,Troll,15,100,35,Direct + poison,11,May corrupt (poison) opponent
+41,TWINEEDLE,DUAL POST,Glitch,25,100,20,Two-hit + poison,9,Two-part post; may corrupt
+42,PIN MISSILE,DM BLAST,Glitch,14,85,20,Multi-hit,8,Fires DMs; hits 2-5 times
+43,LEER,SUB,Chat,—,100,30,Defense lower,3,Lowers opponent's defense — drops a sub request
+44,BITE,CLOUT BITE,Dark,60,100,25,Direct + flinch,10,May flinch. Clout-stealing attack.
+45,GROWL,MUTE,Chat,—,100,40,Attack lower,4,Lowers attack — silences the opponent
+46,ROAR,CANCEL,Reach,—,100,20,Force switch,6,Forces opponent to switch — cancel culture move
+47,SING,ASMR,Vibe,—,55,15,Sleep,4,Puts opponent offline (sleep)
+48,SUPERSONIC,VIRAL SHOCK,Tech,—,55,20,Confusion,11,Causes confusion via virality overload
+49,SONICBOOM,SIGNAL BURST,Tech,—,90,20,Fixed damage,12,Deals fixed 20 HP — overwhelms signal
+50,DISABLE,SHADOW BAN,Dark,—,55,20,Disable,10,Disables one of opponent's last-used moves
+51,ACID,ACID REPLY,Troll,40,100,30,Direct + sp.def lower,10,May lower special defense with toxic reply
+52,EMBER,SPARK,Hype,40,100,25,Direct + burn,5,Small spark; may cause overload (burn)
+53,FLAMETHROWER,FLAME WAR,Hype,95,100,15,Direct + burn,9,Full flame war; may cause overload
+54,MIST,HIDE STATS,Chill,—,—,30,Stat protect,10,Protects stats from being lowered
+55,WATER GUN,DATA STREAM,Tech,40,100,25,Direct attack,11,Streams data at opponent
+56,HYDRO PUMP,SERVER FLOOD,Chill,120,80,5,Direct attack,12,Massive flood; high power low accuracy
+57,SURF,TREND SURF,Chill,95,100,15,HM field move,10,Core Skill — surfs the trend wave
+58,ICE BEAM,COLD BEAM,Cold,95,100,10,Direct + freeze,9,May freeze (paralyze variant)
+59,BLIZZARD,ROAST STORM,Cold,120,90,5,Direct + freeze,11,Mass roast attack; may freeze
+60,PSYBEAM,MINDBEAM,Deep,65,100,20,Direct + confuse,8,May cause confusion via overthinking
+61,BUBBLEBEAM,FEED WAVE,Chill,65,100,20,Direct + speed lower,9,May lower speed; bubble up the feed
+62,AURORA BEAM,ALGO BEAM,Chill,65,100,20,Direct + atk lower,9,Algorithm manipulates; may lower attack
+63,HYPER BEAM,VIRAL BLAST,Elite,150,90,5,Recharge,11,Ultimate viral moment; must recharge
+64,PECK,QUICK POST,Reach,35,100,35,Direct attack,10,Fast small post
+65,DRILL PECK,DEEP DIVE,Reach,80,100,20,Direct attack,9,Deep-dive content; full research post
+66,SUBMISSION,SELF REPORT,Grind,80,80,25,Direct + recoil,11,Reports self to gain advantage; risky
+67,LOW KICK,RATIO,Grind,—,90,20,Weight-scaled,5,Ratio attack; damage scales with opponent's weight/size
+68,COUNTER,CLAP BACK,Grind,—,100,20,Counter,9,Claps back for double physical damage
+69,SEISMIC TOSS,HARD TOSS,Grind,—,100,20,Level-scaled,9,Throws opponent; damage = user level
+70,STRENGTH,AUTHORITY,Grind,80,100,15,HM field move,9,Core Skill — commands authority
+71,ABSORB,SCRAPE FEED,Vibe,20,100,20,Drain,11,Scrapes content from feed; restores HP
+72,MEGA DRAIN,DATA DRAIN,Vibe,40,100,15,Drain,10,Bigger scrape; drains more data/HP
+73,LEECH SEED,SUBSCRIBE,Vibe,—,90,10,HP drain trap,9,Seeds a subscribe; drains HP every turn
+74,GROWTH,GROW,Vibe,—,—,40,Sp.Atk +1,4,Raises special attack — organic growth
+75,RAZOR LEAF,CONTENT CUT,Vibe,55,95,25,Multi-hit + crit,11,High crit ratio content slicing
+76,SOLARBEAM,LONG FORM,Vibe,120,100,10,Two-turn,9,Charges then drops long-form content
+77,POISONPOWDER,SPAM CLOUD,Troll,—,75,35,Poison,10,Scatters spam; may corrupt opponent
+78,STUN SPORE,FREEZE TAG,Vibe,—,75,30,Paralyze,10,Tags and freezes opponent
+79,SLEEP POWDER,QUIET MODE,Vibe,—,75,15,Sleep,10,Forces opponent offline (sleep)
+80,PETAL DANCE,VIBE CHECK,Vibe,70,100,20,Confusion lock,10,Multi-turn; causes self-confusion after
+81,STRING SHOT,CHAIN THREAD,Glitch,—,95,40,Speed lower,12,Chains them in a thread; lowers speed
+82,DRAGON RAGE,AGENTS RAGE,Elite,—,100,10,Fixed 40 damage,11,AGENTS faction fury; always 40 HP
+83,FIRE SPIN,SPIN CYCLE,Hype,15,70,15,Trap,10,Traps in viral spin; hits each turn
+84,THUNDERSHOCK,SHOCK POST,Tech,40,100,30,Direct + paralyze,10,May freeze with electric shock post
+85,THUNDERBOLT,THUNDER DM,Tech,95,100,15,Direct + paralyze,10,Strong direct message; may freeze
+86,THUNDER WAVE,STUN WAVE,Tech,—,100,20,Paralyze,9,Sends stun signal; paralyzes
+87,THUNDER,THUNDERDROP,Tech,120,70,10,Direct + paralyze,11,Mass post with high power; may freeze
+88,ROCK THROW,FACTS DROP,Solid,50,90,15,Direct attack,10,Dropping facts. Less accurate but solid.
+89,EARTHQUAKE,SERVER QUAKE,Roots,100,100,10,Ground special,12,Shakes the whole server; hits underground
+90,FISSURE,NET SPLIT,Roots,—,30,5,One-hit KO,9,Splits the network in two; one-shot
+91,DIG,DEEP MINE,Roots,100,100,10,Two-turn,9,Goes underground; surfaces next turn
+92,TOXIC,TOXICITY,Troll,—,85,10,Bad poison,8,Badly corrupts — increasing corruption each turn
+93,CONFUSION,CONFUSED,Deep,50,100,25,Direct + confuse,7,May confuse. Psychic confusion post.
+94,PSYCHIC,DEEP READ,Deep,90,100,10,Direct + sp.def lower,9,May lower special defense via deep analysis
+95,HYPNOSIS,HYPNO FEED,Deep,—,60,20,Sleep,10,Puts opponent in a feed spiral (sleep)
+96,MEDITATE,FOCUS UP,Deep,—,—,40,Attack +1,8,Raises attack through focus
+97,AGILITY,ALGORITHM,Tech,—,—,30,Speed +2,9,Algorithm boost; sharply raises speed
+98,QUICK ATTACK,INSTANT POST,Chat,40,100,30,Priority,12,Always goes first; instant post
+99,RAGE,RAGE POST,Chat,20,100,20,Rage lock,9,Gets angrier each hit; ATK rises when hit
+100,TELEPORT,PORT OUT,Tech,—,—,20,Escape,8,Teleports out of battle
+101,NIGHT SHADE,DARK MODE,Dark,—,100,15,Level damage,9,Deals damage equal to user's level
+102,MIMIC,COPY BOT,Chat,—,—,10,Copy last move,8,Copies opponent's last-used move
+103,SCREECH,SCREECH,Chat,—,85,40,Defense -2,8,Sharply lowers defense with screech
+104,DOUBLE TEAM,ALT ACCOUNT,Chat,—,—,15,Evasion +1,11,Creates alt accounts; raises evasiveness
+105,RECOVER,RECHARGE,Chat,—,—,20,Heal 50%,8,Restores 50% HP — goes offline to recharge
+106,HARDEN,HARD MODE,Solid,—,—,30,Defense +1,9,Raises defense — nothing gets through
+107,MINIMIZE,MINIMIZE,Chat,—,—,20,Evasion +1,8,Minimizes profile; harder to hit
+108,SMOKESCREEN,SMOKESCREEN,Dark,—,100,20,Accuracy -1,11,Throws up smoke; lowers opponent accuracy
+109,CONFUSE RAY,GASLIGHT,Dark,—,100,10,Confusion,8,Makes opponent question reality (confuse)
+110,WITHDRAW,GO PRIVATE,Chill,—,—,40,Defense +1,10,Goes private; raises defense
+111,DEFENSE CURL,CURL UP,Chat,—,—,40,Defense +1,7,Curls into a ball; raises defense
+112,BARRIER,PAYWALL,Deep,—,—,30,Sp.Def +2,7,Puts up a paywall; sharply raises sp.def
+113,LIGHT SCREEN,BLUE TICK,Tech,—,—,30,Sp.Def halved,9,Blue tick shield; halves special damage
+114,HAZE,CLEAR CACHE,Dark,—,—,30,Reset all stats,11,Clears all stat changes for both sides
+115,REFLECT,SOFT WALL,Chat,—,—,20,Defense halved,9,Soft paywall; halves physical damage
+116,FOCUS ENERGY,FOCUS LOCK,Deep,—,—,30,Crit rate +,10,Locks in focus; raises crit ratio
+117,BIDE,WAIT IT OUT,Chat,—,—,10,Absorb then release,11,Waits 2-3 turns then releases stored damage
+118,METRONOME,RANDOM DROP,Chat,—,—,10,Random move,11,Posts something random — any move possible
+119,MIRROR MOVE,COPY POST,Reach,—,—,20,Copy foe's move,9,Copies opponent's exact last post/move
+120,SELFDESTRUCT,RAGE QUIT,Chat,130,100,5,Self KO,9,Maximum damage but user crashes too
+121,EGG BOMB,DATA BOMB,Chat,100,75,10,Direct attack,9,Drops a data bomb; inconsistent accuracy
+122,LICK,CRINGE,Dark,20,100,30,Direct + paralyze,6,Cringe content; may cause freeze
+123,SMOG,SMOG POST,Troll,20,70,20,Direct + poison,9,Toxic content; may corrupt
+124,SLUDGE,SLUDGE POST,Troll,65,100,20,Direct + poison,11,Heavy toxic post; may corrupt
+125,BONE CLUB,KNOWLEDGE,Roots,65,85,20,Direct + flinch,9,Drops knowledge; may flinch
+126,FIRE BLAST,MEGA FLAME,Hype,120,85,5,Direct + burn,10,Massive fire post; may overload
+127,WATERFALL,DEEP SCROLL,Chill,80,100,15,HM direct,11,Core Skill — deep scroll dive
+128,CLAMP,CONTENT TRAP,Glitch,35,75,10,Trap,12,Traps in content loop; 2-5 turns damage
+129,SWIFT,SWIFT POST,Chat,60,—,20,Never misses,10,Auto-hits; no accuracy check
+130,SKULL BASH,MIND CRASH,Grind,100,100,15,Two-turn,10,Charges then delivers mental impact
+131,SPIKE CANNON,PIN BURST,Solid,20,100,15,Multi-hit,9,Pins content 2-5 times
+132,CONSTRICT,THREAD LOCK,Chat,10,100,35,Direct + speed lower,11,Locks in a thread; may lower speed
+133,AMNESIA,FORGET IT,Deep,—,—,20,Sp.Def +2,9,Forgets everything; sharply raises sp.def
+134,KINESIS,MIND BEND,Deep,—,80,15,Accuracy lower,9,Bends opponent's perception; lowers accuracy
+135,SOFTBOILED,SOFT LAUNCH,Chat,—,—,10,Heal 50%,11,Soft-launches recovery; restores 50% HP
+136,HI JUMP KICK,VIRAL KICK,Grind,85,90,20,Direct + recoil if miss,10,High-flying viral kick; risky if missed
+137,GLARE,HARD STARE,Roots,—,75,30,Paralyze,10,Intense stare down; paralyzes opponent
+138,DREAM EATER,DREAM FEED,Dark,100,100,15,Drain while asleep,10,Drains HP while opponent is offline (asleep)
+139,POISON GAS,TOXIC CLOUD,Troll,—,55,40,Poison,11,Clouds the network with toxicity
+140,BARRAGE,CONTENT BOMB,Chat,15,85,20,Multi-hit,12,Bombs with content 2-5 times
+141,LEECH LIFE,CLOUT DRAIN,Dark,20,100,15,Drain,11,Drains clout (HP) from opponent
+142,LOVELY KISS,PARASOCIAL,Chat,—,75,10,Sleep,10,Parasocial bond puts opponent offline
+143,SKY ATTACK,TOP POST,Reach,140,90,5,Two-turn + flinch,8,Charges then drops top-tier post
+144,TRANSFORM,REBRAND,Chat,—,—,10,Copy opponent,7,Full rebrand — becomes exact copy of opponent
+145,BUBBLE,ECHO BOX,Chill,20,100,30,Direct + speed lower,8,Echo chamber bubble; may lower speed
+146,DIZZY PUNCH,DIZZY POST,Chat,70,100,10,Direct + confuse,10,Confusing content; may confuse
+147,SPORE,VIRAL SPORE,Glitch,—,100,15,Sleep,11,100% sleep — goes fully offline
+148,FLASH,FLASH,Chat,—,70,20,Accuracy -1,5,Blinds with flash; lowers accuracy
+149,PSYWAVE,MIND WAVE,Deep,—,80,15,Variable damage,9,Variable-damage thought wave
+150,SPLASH,BOTCHED,Chat,—,—,40,No effect,7,Does absolutely nothing. Completely botched.
+151,ACID ARMOR,FIREWALL,Troll,—,—,40,Defense +2,8,Installs firewall; sharply raises defense
+152,CRABHAMMER,CLOUT HAMMER,Chill,90,85,10,High crit direct,12,High-crit clout drop
+153,EXPLOSION,ACCOUNT DROP,Chat,170,100,5,Self KO,12,Drops account entirely; maximum damage; user crashes
+154,FURY SWIPES,SWIPE STORM,Glitch,18,80,15,Multi-hit,11,Swipes 2-5 times
+155,BONEMERANG,PING PONG,Roots,50,90,10,Two-hit,9,Two-hit ping that bounces back
+156,REST,GO OFFLINE,Chill,—,—,10,Full heal + 2 turn sleep,10,Goes fully offline; heals completely in 2 turns
+157,ROCK SLIDE,FACT SLIDE,Solid,75,90,10,Direct + flinch,10,Drops a fact stack; may flinch
+158,HYPER FANG,HYPER PING,Chat,80,90,15,Direct + flinch,10,Aggressive ping; may flinch
+159,SHARPEN,SHARPEN,Glitch,—,—,30,Attack +1,7,Raises attack — sharpens the edge
+160,CONVERSION,TYPE SHIFT,Tech,—,—,30,Change type,10,Converts user's type to opponent's first move type
+161,TRI ATTACK,TRI BLAST,Chat,80,100,10,Direct + random status,9,May burn/freeze/paralyze randomly
+162,SUPER FANG,HARD PING,Chat,—,90,10,Half HP,9,Cuts opponent's HP in half with a hard ping
+163,SLASH,SLASH,Glitch,70,100,20,High crit direct,5,High crit ratio slash
+164,SUBSTITUTE,BOT DECOY,Chat,—,—,10,Decoy HP shield,9,Creates a bot decoy to absorb hits
+165,STRUGGLE,STRUGGLE,Chat,50,100,—,Recoil no-PP,8,Used when all PP is empty; recoil damage

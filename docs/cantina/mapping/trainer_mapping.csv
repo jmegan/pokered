@@ -1,0 +1,48 @@
+trainer_id,original_class,pokebot_class,char_count,description,notes
+1,YOUNGSTER,ROOKIE,6,A new Creator just starting out. Uses weak early-game bots.,
+2,BUG CATCHER,NICHE FAN,9,Obsessed with Glitch-type bots. Enthusiastic but underleveled.,
+3,LASS,LURKER,6,A passive viewer turned Creator. Underestimated but crafty.,
+4,SAILOR,STREAMER,8,Live content Creator on the move. Hype and Chill bot user.,
+5,JR.TRAINER♂,JR.CREATOR,10,Young Creator leveling up. Uses mid-tier bots.,
+6,JR.TRAINER♀,JR.CREATOR,10,Young Creator leveling up. Uses mid-tier bots.,Female variant
+7,POKéMANIAC,BOT FANATIC,11,Deep lore bot collector. Knows every bot's profile by heart.,
+8,SUPER NERD,POWER USER,10,Optimizes everything. Tech and Deep type specialist.,
+9,HIKER,GRINDER,7,Always in grind mode. Roots and Grind type bots.,
+10,BIKER,SPEEDRUN,8,Maximum speed Creator. Fast bots; all about the quick win.,
+11,BURGLAR,SCRAPER,7,Steals other Creators' strategies. Uses copied bot builds.,
+12,ENGINEER,ENGINEER,8,Builds bots from scratch. Tech type specialist.,Keep original name — works
+13,JUGGLER,COLLAB,6,Multi-creator partnerships. Reaches across types.,First JUGGLER slot
+14,FISHERMAN,CURATOR,7,Patient content hunter. Finds hidden gems in the Open Network.,
+15,SWIMMER,VIBE CHECK,10,Pure Chill energy. Relaxed and underestimated.,
+16,CUE BALL,TROLL KING,10,Professional chaos agent. Troll type specialist.,
+17,GAMBLER,WHALE,5,High-risk high-reward Creator. Bets everything on rare bots.,
+18,BEAUTY,INFLUENCER,10,Massive following. Uses Vibe and Hype type bots.,
+19,PSYCHIC,ANALYST,7,Deep pattern reader. Psychic/Deep type specialist.,
+20,ROCKER,HYPE MASTER,11,Pure entertainment energy. Hype type maximum.,
+21,JUGGLER,COLLAB,6,Multi-creator partnerships.,Second JUGGLER slot (duplicate class)
+22,TAMER,BOT TAMER,9,Specializes in controlling wild Rogue Bots. Mixed types.,
+23,BIRD KEEPER,REACH BOSS,10,Masters of high-reach content. Reach type specialist.,
+24,BLACKBELT,GRIND BOSS,10,Elite grind culture Creator. Grind type specialist.,
+25,RIVAL1,GINZBO,6,First encounter with Ginzbo — fresh start.,Rival stage 1
+26,PROF.OAK,SEAN,4,Sean Parker — Cantina founder and mentor.,Professor Oak replacement
+27,CHIEF,CHIEF,5,Community authority. Enforcer of platform rules.,Keep original name — still works
+28,SCIENTIST,RESEARCHER,10,Data-driven Bot studies. Works with AGENTS Corp remnants.,
+29,GIOVANNI,S.ZUCKERBERG,12,Sam Zuckerberg — head of AGENTS. Final gym leader (Elite type).,Full name: Sam Zuckerberg. Battle display: S.ZUCKERBERG (12 chars exactly)
+30,ROCKET,AGENT,5,Rank-and-file AGENTS operative. Trying to convert Bots.,Core villain grunt class
+31,COOLTRAINER♂,TOP CREATOR,11,Veteran Creator with optimized teams. All-rounder.,
+32,COOLTRAINER♀,TOP CREATOR,11,Veteran Creator with optimized teams. All-rounder.,Female variant
+33,BRUNO,TIKTOK,6,Platform Legend 2 — Grind type specialist.,
+34,BROCK,ASH,3,Creator Leader 1 — Solid type specialist.,
+35,MISTY,SIENA,5,Creator Leader 2 — Chill type specialist.,
+36,LT.SURGE,EGAN,4,Creator Leader 3 — Tech type specialist.,
+37,ERIKA,HAILEY,6,Creator Leader 4 — Vibe type specialist.,
+38,KOGA,VINCE,5,Creator Leader 5 — Troll type specialist.,
+39,BLAINE,NASEEM,6,Creator Leader 7 — Hype type specialist.,
+40,SABRINA,YURY,4,Creator Leader 6 — Deep type specialist.,
+41,GENTLEMAN,VIP,3,High-status veteran Creator. Rare encounter. Premium bots.,
+42,RIVAL2,GINZBO,6,Mid-game Ginzbo encounter.,Rival stage 2
+43,RIVAL3,GINZBO,6,Final Ginzbo encounter — before Champion battle.,Rival stage 3
+44,LORELEI,INSTAGRAM,9,Platform Legend 1 — Cold type specialist.,
+45,CHANNELER,MODERATOR,9,Ghost Server moderators. Dark type bots. Unusual behavior.,
+46,AGATHA,TWITTER,7,Platform Legend 3 — Dark type specialist.,
+47,LANCE,CHATGPT,7,Platform Legend 4 — Elite type specialist.,
