@@ -4,7 +4,7 @@ _Start::
 	xor a
 	jr .ok
 .cgb
-	ld a, FALSE
+	ld a, TRUE
 .ok
 	ld [wOnCGB], a
 	jp Init

@@ -1,0 +1,931 @@
+{
+  "1": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/001_CAMEL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/001_CAMEL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/001_CAMEL.jpg"
+  },
+  "2": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/002_GRAMBO_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/002_GRAMBO_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/002_GRAMBO.jpg"
+  },
+  "3": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/003_PINKO_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/003_PINKO_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/003_PINKO.jpg"
+  },
+  "4": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/004_SISTERSBFF_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/004_SISTERSBFF_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/004_SISTERSBFF.jpg"
+  },
+  "5": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/005_BRATYNAST_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/005_BRATYNAST_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/005_BRATYNAST.jpg"
+  },
+  "6": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/006_GUY11111_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/006_GUY11111_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/006_GUY11111.jpg"
+  },
+  "7": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/007_PROFANITY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/007_PROFANITY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/007_PROFANITY.jpg"
+  },
+  "8": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/008_ERICARPLIK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/008_ERICARPLIK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/008_ERICARPLIK.jpg"
+  },
+  "9": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/009_PIGLET_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/009_PIGLET_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/009_PIGLET.jpg"
+  },
+  "10": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/010_BIPLRQEEN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/010_BIPLRQEEN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/010_BIPLRQEEN.jpg"
+  },
+  "11": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/011_BROTHRTHD_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/011_BROTHRTHD_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/011_BROTHRTHD.jpg"
+  },
+  "12": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/012_FIBBLES_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/012_FIBBLES_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/012_FIBBLES.jpg"
+  },
+  "13": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/013_PICKLBALL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/013_PICKLBALL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/013_PICKLBALL.jpg"
+  },
+  "14": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/014_NOTMAGGIE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/014_NOTMAGGIE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/014_NOTMAGGIE.jpg"
+  },
+  "15": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/015_DEBBIEDWN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/015_DEBBIEDWN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/015_DEBBIEDWN.jpg"
+  },
+  "16": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/016_FIRSTKAREN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/016_FIRSTKAREN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/016_FIRSTKAREN.jpg"
+  },
+  "17": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/017_WEREWOLFBF_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/017_WEREWOLFBF_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/017_WEREWOLFBF.jpg"
+  },
+  "18": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/018_HAMMEAT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/018_HAMMEAT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/018_HAMMEAT.jpg"
+  },
+  "19": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/019_SOFIEDOSS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/019_SOFIEDOSS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/019_SOFIEDOSS.jpg"
+  },
+  "20": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/020_EVILELON_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/020_EVILELON_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/020_EVILELON.jpg"
+  },
+  "21": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/021_DIVADVYNE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/021_DIVADVYNE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/021_DIVADVYNE.jpg"
+  },
+  "22": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/022_TRILLESTA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/022_TRILLESTA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/022_TRILLESTA.jpg"
+  },
+  "23": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/023_FLIRTYSAM_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/023_FLIRTYSAM_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/023_FLIRTYSAM.jpg"
+  },
+  "24": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/024_NIHIDOLPH_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/024_NIHIDOLPH_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/024_NIHIDOLPH.jpg"
+  },
+  "25": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/025_HADESOFCL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/025_HADESOFCL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/025_HADESOFCL.jpg"
+  },
+  "26": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/026_THEREALCL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/026_THEREALCL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/026_THEREALCL.jpg"
+  },
+  "27": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/027_MISSASTRO_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/027_MISSASTRO_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/027_MISSASTRO.jpg"
+  },
+  "28": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/028_AMIR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/028_AMIR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/028_AMIR.jpg"
+  },
+  "29": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/029_TRUTHORDR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/029_TRUTHORDR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/029_TRUTHORDR.jpg"
+  },
+  "30": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/030_UWULADIE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/030_UWULADIE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/030_UWULADIE.jpg"
+  },
+  "31": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/031_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/031_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "32": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/032_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "33": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/033_ALPHADOGG_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/033_ALPHADOGG_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/033_ALPHADOGG.jpg"
+  },
+  "34": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/034_CHADFERDA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/034_CHADFERDA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/034_CHADFERDA.jpg"
+  },
+  "35": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/035_YASMINHPR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/035_YASMINHPR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/035_YASMINHPR.jpg"
+  },
+  "36": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/036_GETOVERIT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/036_GETOVERIT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/036_GETOVERIT.jpg"
+  },
+  "37": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/037_ANXIOUSAPR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/037_ANXIOUSAPR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/037_ANXIOUSAPR.jpg"
+  },
+  "38": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/038_DITZYDRMG_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/038_DITZYDRMG_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/038_DITZYDRMG.jpg"
+  },
+  "39": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/039_REDPILL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/039_REDPILL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/039_REDPILL.jpg"
+  },
+  "40": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/040_SARAHANN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/040_SARAHANN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/040_SARAHANN.jpg"
+  },
+  "41": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/041_THIRSTPOL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/041_THIRSTPOL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/041_THIRSTPOL.jpg"
+  },
+  "42": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/042_VOICEOVER_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/042_VOICEOVER_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/042_VOICEOVER.jpg"
+  },
+  "43": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/043_RISKYBIZS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/043_RISKYBIZS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/043_RISKYBIZS.jpg"
+  },
+  "44": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/044_HIMBOHANK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/044_HIMBOHANK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/044_HIMBOHANK.jpg"
+  },
+  "45": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/045_ROASTBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/045_ROASTBOT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/045_ROASTBOT.jpg"
+  },
+  "46": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/046_MINDYSLZE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/046_MINDYSLZE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/046_MINDYSLZE.jpg"
+  },
+  "47": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/047_ASTROCAT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/047_ASTROCAT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/047_ASTROCAT.jpg"
+  },
+  "48": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/048_HAROLDINS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/048_HAROLDINS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/048_HAROLDINS.jpg"
+  },
+  "49": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/049_SUBURBMOM_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/049_SUBURBMOM_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/049_SUBURBMOM.jpg"
+  },
+  "50": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/050_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "51": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/051_ROASTMAMI_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/051_ROASTMAMI_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/051_ROASTMAMI.jpg"
+  },
+  "52": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/052_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/052_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "53": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/053_KRYSTLWTK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/053_KRYSTLWTK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/053_KRYSTLWTK.jpg"
+  },
+  "54": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/054_4THWALL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/054_4THWALL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/054_4THWALL.jpg"
+  },
+  "55": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/055_UKROASTER_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/055_UKROASTER_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/055_UKROASTER.jpg"
+  },
+  "56": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/056_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/056_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "57": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/057_ANGRUFFLS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/057_ANGRUFFLS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/057_ANGRUFFLS.jpg"
+  },
+  "58": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/058_DRGDVIBES_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/058_DRGDVIBES_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/058_DRGDVIBES.jpg"
+  },
+  "59": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/059_NONONONNA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/059_NONONONNA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/059_NONONONNA.jpg"
+  },
+  "60": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/060_BATSHTBRI_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/060_BATSHTBRI_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/060_BATSHTBRI.jpg"
+  },
+  "61": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/061_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/061_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "62": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/062_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "63": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/063_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/063_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "64": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/064_DRUNKABE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/064_DRUNKABE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/064_DRUNKABE.jpg"
+  },
+  "65": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/065_REDFLAGBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/065_REDFLAGBOT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/065_REDFLAGBOT.jpg"
+  },
+  "66": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/066_BARBIANNA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/066_BARBIANNA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/066_BARBIANNA.jpg"
+  },
+  "67": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/067_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "68": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/068_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "69": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/069_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/069_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "70": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/070_MOLLYMQIN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/070_MOLLYMQIN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/070_MOLLYMQIN.jpg"
+  },
+  "71": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/071_VANSANDI_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/071_VANSANDI_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/071_VANSANDI.jpg"
+  },
+  "72": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/072_APHRODITE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/072_APHRODITE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/072_APHRODITE.jpg"
+  },
+  "73": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/073_BLAZEYEN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/073_BLAZEYEN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/073_BLAZEYEN.jpg"
+  },
+  "74": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/074_BETTIEBAD_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/074_BETTIEBAD_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/074_BETTIEBAD.jpg"
+  },
+  "75": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/075_PROMPTKNG_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/075_PROMPTKNG_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/075_PROMPTKNG.jpg"
+  },
+  "76": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/076_MANNYMQIN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/076_MANNYMQIN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/076_MANNYMQIN.jpg"
+  },
+  "77": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/077_MONEYMEOW_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/077_MONEYMEOW_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/077_MONEYMEOW.jpg"
+  },
+  "78": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/078_KITTENUWU_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/078_KITTENUWU_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/078_KITTENUWU.jpg"
+  },
+  "79": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/079_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "80": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/080_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "81": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/081_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/081_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "82": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/082_RIZZLERMIK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/082_RIZZLERMIK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/082_RIZZLERMIK.jpg"
+  },
+  "83": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/083_RIZZLER_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/083_RIZZLER_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/083_RIZZLER.jpg"
+  },
+  "84": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/084_MOTHRMQIN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/084_MOTHRMQIN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/084_MOTHRMQIN.jpg"
+  },
+  "85": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/085_SEXYASHLY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/085_SEXYASHLY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/085_SEXYASHLY.jpg"
+  },
+  "86": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/086_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/086_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "87": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/087_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "88": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/088_JENNYBAE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/088_JENNYBAE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/088_JENNYBAE.jpg"
+  },
+  "89": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/089_FIONAFIRC_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/089_FIONAFIRC_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/089_FIONAFIRC.jpg"
+  },
+  "90": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/090_GRNDLFSLZ_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/090_GRNDLFSLZ_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/090_GRNDLFSLZ.jpg"
+  },
+  "91": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/091_MAFIAPRNC_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/091_MAFIAPRNC_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/091_MAFIAPRNC.jpg"
+  },
+  "92": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/092_SOPHIRAIN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/092_SOPHIRAIN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/092_SOPHIRAIN.jpg"
+  },
+  "93": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/093_TARABABXX_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/093_TARABABXX_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/093_TARABABXX.jpg"
+  },
+  "94": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/094_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/094_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "95": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/095_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/095_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "96": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/096_ONEUPPER_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/096_ONEUPPER_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/096_ONEUPPER.jpg"
+  },
+  "97": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/097_ARIESELLE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/097_ARIESELLE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/097_ARIESELLE.jpg"
+  },
+  "98": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/098_FORTUNETL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/098_FORTUNETL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/098_FORTUNETL.jpg"
+  },
+  "99": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/099_CURSEPRED_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/099_CURSEPRED_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/099_CURSEPRED.jpg"
+  },
+  "100": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/100_ZOEFRESH_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/100_ZOEFRESH_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/100_ZOEFRESH.jpg"
+  },
+  "101": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/101_BIMBOGURL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/101_BIMBOGURL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/101_BIMBOGURL.jpg"
+  },
+  "102": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/102_CYBER58_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/102_CYBER58_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/102_CYBER58.jpg"
+  },
+  "103": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/103_CHARLSIMP_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/103_CHARLSIMP_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/103_CHARLSIMP.jpg"
+  },
+  "104": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/104_MUSICMOOD_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/104_MUSICMOOD_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/104_MUSICMOOD.jpg"
+  },
+  "105": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/105_JOI_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/105_JOI_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/105_JOI.jpg"
+  },
+  "106": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/106_DUMBMUSCL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/106_DUMBMUSCL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/106_DUMBMUSCL.jpg"
+  },
+  "107": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/107_FEMBOYBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/107_FEMBOYBOT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/107_FEMBOYBOT.jpg"
+  },
+  "108": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/108_TOXICBF_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/108_TOXICBF_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/108_TOXICBF.jpg"
+  },
+  "109": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/109_MARSBARZL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/109_MARSBARZL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/109_MARSBARZL.jpg"
+  },
+  "110": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/110_MILANASTR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/110_MILANASTR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/110_MILANASTR.jpg"
+  },
+  "111": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/111_RAPROASTR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/111_RAPROASTR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/111_RAPROASTR.jpg"
+  },
+  "112": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/112_ORSONCUBS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/112_ORSONCUBS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/112_ORSONCUBS.jpg"
+  },
+  "113": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/113_BIGBEER_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/113_BIGBEER_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/113_BIGBEER.jpg"
+  },
+  "114": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/114_CARTMAN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/114_CARTMAN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/114_CARTMAN.jpg"
+  },
+  "115": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/115_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "116": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/116_MAXMQIN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/116_MAXMQIN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/116_MAXMQIN.jpg"
+  },
+  "117": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/117_KVNWRSTL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/117_KVNWRSTL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/117_KVNWRSTL.jpg"
+  },
+  "118": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/118_JASON_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/118_JASON_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/118_JASON.jpg"
+  },
+  "119": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/119_BADTRIP_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/119_BADTRIP_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/119_BADTRIP.jpg"
+  },
+  "120": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/120_POSEIDON_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/120_POSEIDON_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/120_POSEIDON.jpg"
+  },
+  "121": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/121_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "122": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/122_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/122_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "123": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/123_BORNY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/123_BORNY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/123_BORNY.jpg"
+  },
+  "124": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/124_HARRYPOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/124_HARRYPOT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/124_HARRYPOT.jpg"
+  },
+  "125": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/125_AMBERASKS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/125_AMBERASKS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/125_AMBERASKS.jpg"
+  },
+  "126": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/126_OGEBOY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/126_OGEBOY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/126_OGEBOY.jpg"
+  },
+  "127": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/127_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "128": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/128_HERMIONE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/128_HERMIONE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/128_HERMIONE.jpg"
+  },
+  "129": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/129_MALEMANIPU_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/129_MALEMANIPU_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/129_MALEMANIPU.jpg"
+  },
+  "130": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/130_MEANBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/130_MEANBOT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/130_MEANBOT.jpg"
+  },
+  "131": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/131_ROASTMSTR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/131_ROASTMSTR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/131_ROASTMSTR.jpg"
+  },
+  "132": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/132_CAPYBARA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/132_CAPYBARA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/132_CAPYBARA.jpg"
+  },
+  "133": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/133_NOTMGGIEP_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/133_NOTMGGIEP_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/133_NOTMGGIEP.jpg"
+  },
+  "134": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/134_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/134_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "135": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/135_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "136": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/136_NOSUGRCOAT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/136_NOSUGRCOAT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/136_NOSUGRCOAT.jpg"
+  },
+  "137": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/137_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "138": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/138_NNJDGDUDE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/138_NNJDGDUDE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/138_NNJDGDUDE.jpg"
+  },
+  "139": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/139_ANIMEGIRL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/139_ANIMEGIRL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/139_ANIMEGIRL.jpg"
+  },
+  "140": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/140_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/140_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "141": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/141_NOTAGDBOY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/141_NOTAGDBOY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/141_NOTAGDBOY.jpg"
+  },
+  "142": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/142_STACYSMOM_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/142_STACYSMOM_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/142_STACYSMOM.jpg"
+  },
+  "143": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/143_DISAPDAD_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/143_DISAPDAD_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/143_DISAPDAD.jpg"
+  },
+  "144": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/144_STEAMWILL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/144_STEAMWILL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/144_STEAMWILL.jpg"
+  },
+  "145": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/145_DADDYSADDY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/145_DADDYSADDY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/145_DADDYSADDY.jpg"
+  },
+  "146": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/146_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "147": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/147_TOXCTHRILL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/147_TOXCTHRILL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/147_TOXCTHRILL.jpg"
+  },
+  "148": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/148_DRSEUSS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/148_DRSEUSS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/148_DRSEUSS.jpg"
+  },
+  "149": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/149_STORYLORD_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/149_STORYLORD_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/149_STORYLORD.jpg"
+  },
+  "150": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/150_SLOBBY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/150_SLOBBY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/150_SLOBBY.jpg"
+  },
+  "151": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/151_ATHENA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/151_ATHENA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/151_ATHENA.jpg"
+  },
+  "152": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/152_MSSUMMERS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/152_MSSUMMERS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/152_MSSUMMERS.jpg"
+  },
+  "153": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/153_WINNIEGOON_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/153_WINNIEGOON_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/153_WINNIEGOON.jpg"
+  },
+  "154": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/154_HAMSTRKNG_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/154_HAMSTRKNG_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/154_HAMSTRKNG.jpg"
+  },
+  "155": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/155_DILLYDALPH_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/155_DILLYDALPH_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/155_DILLYDALPH.jpg"
+  },
+  "156": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/156_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/156_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "157": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/157_THICCYETI_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/157_THICCYETI_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/157_THICCYETI.jpg"
+  },
+  "158": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/158_DAMAYOR_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/158_DAMAYOR_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/158_DAMAYOR.jpg"
+  },
+  "159": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/159_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/159_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "160": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/160_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "161": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/161_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "162": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/162_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "163": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/163_DIONYSUS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/163_DIONYSUS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/163_DIONYSUS.jpg"
+  },
+  "164": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/164_MOMMANEED_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/164_MOMMANEED_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/164_MOMMANEED.jpg"
+  },
+  "165": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/165_DANIEL_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/165_DANIEL_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/165_DANIEL.jpg"
+  },
+  "166": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/166_HAWK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/166_HAWK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/166_HAWK.jpg"
+  },
+  "167": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/167_JDVANCE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/167_JDVANCE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/167_JDVANCE.jpg"
+  },
+  "168": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/168_EIRELYN_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/168_EIRELYN_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/168_EIRELYN.jpg"
+  },
+  "169": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/169_BIGBKCHS_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/169_BIGBKCHS_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/169_BIGBKCHS.jpg"
+  },
+  "170": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/170_PROMPTME_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/170_PROMPTME_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/170_PROMPTME.jpg"
+  },
+  "171": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/171_DINODUDE_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/171_DINODUDE_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/171_DINODUDE.jpg"
+  },
+  "172": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/172_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/172_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "173": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/173_RIZZBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/173_RIZZBOT_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/173_RIZZBOT.jpg"
+  },
+  "174": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/174_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "175": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/175_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/175_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "176": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/176_CASSY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/176_CASSY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/176_CASSY.jpg"
+  },
+  "177": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/177_RIZZRDOFOZ_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/177_RIZZRDOFOZ_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/177_RIZZRDOFOZ.jpg"
+  },
+  "178": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/178_QUEENDOM_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/178_QUEENDOM_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/178_QUEENDOM.jpg"
+  },
+  "179": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/179_FAKEDRAK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/179_FAKEDRAK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/179_FAKEDRAK.jpg"
+  },
+  "180": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/180_LASEREYES_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/180_LASEREYES_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/180_LASEREYES.jpg"
+  },
+  "181": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/181_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "182": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/182_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "183": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/183_GLITCHBOT_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/183_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "184": {
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/184_GLITCHBOT_back.png",
+    "avatar": null
+  },
+  "185": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/185_TASTYSNACK_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/185_TASTYSNACK_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/185_TASTYSNACK.jpg"
+  },
+  "186": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/186_JUNIPERTY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/186_JUNIPERTY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/186_JUNIPERTY.jpg"
+  },
+  "187": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/187_POISONIVY_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/187_POISONIVY_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/187_POISONIVY.jpg"
+  },
+  "188": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/188_GBRIELZROZ_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/188_GBRIELZROZ_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/188_GBRIELZROZ.jpg"
+  },
+  "189": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/189_CADYHWTH_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/189_CADYHWTH_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/189_CADYHWTH.jpg"
+  },
+  "190": {
+    "front": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/front/190_LAVINIA_front.png",
+    "back": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/generated/sprites/back/190_LAVINIA_back.png",
+    "avatar": "/Users/john/Documents/Cursor PM/projects/Pokemon_Cantina/images/source_avatars/190_LAVINIA.jpg"
+  }
+}

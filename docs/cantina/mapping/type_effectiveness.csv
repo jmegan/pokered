@@ -1,0 +1,105 @@
+attacker_type,defender_type,multiplier,thematic_rationale,gen1_equivalent
+Chat,Dark,0,Small talk ignored by shadow presence,Normal→Ghost
+Grind,Reach,0,Hustle can't catch broadcasting bots,Fighting→Flying
+Grind,Dark,0,Physical effort misses shadows,Fighting→Ghost (Gen1 bug→kept)
+Roots,Reach,0,Earthed culture can't hit broadcasting bots,Ground→Flying
+Tech,Roots,0,Signal doesn't penetrate deep grounding,Electric→Ground
+Dark,Chat,0,Darkness is above small talk,Ghost→Normal
+Dark,Deep,0,Shadow bypasses the mind entirely,Ghost→Psychic
+Deep,Dark,0,Mind can't read what has no signal,Psychic→Ghost
+Hype,Chill,2,Energy disrupts calm,Fire→Water
+Hype,Vibe,2,Hype burns aesthetics,Fire→Grass
+Hype,Glitch,2,Fire fries bugs,Fire→Bug
+Hype,Solid,2,Trend melts hard facts,Fire→Ice (partial)
+Cold,Hype,2,Deadpan kills the vibe,Ice→Fire
+Cold,Vibe,2,Frost kills the aesthetic,Ice→Grass
+Cold,Reach,2,Icing the wings cuts broadcast,Ice→Flying
+Cold,Roots,2,Permafrost locks deep culture,Ice→Ground
+Cold,Elite,2,Ice defeats Dragon — only Cold can,Ice→Dragon
+Tech,Troll,2,Debugging eliminates chaos,Electric→Poison (thematic)
+Tech,Chill,2,Signal overwhelms ambient,Electric→Water
+Tech,Reach,2,Electric finds the broadcast,Electric→Flying
+Solid,Troll,2,Facts beat chaos,Rock→Poison
+Solid,Reach,2,Hard data grounds broadcast,Rock→Flying
+Solid,Hype,2,Cold facts quench trends,Rock→Fire
+Solid,Glitch,2,Stable systems detect anomalies,Rock→Bug
+Solid,Chill,2,Persistence erodes calm,Rock→Water (thematic)
+Grind,Chat,2,Hustle steamrolls everyday bots,Fighting→Normal
+Grind,Solid,2,Relentless effort wears down stone,Fighting→Rock
+Grind,Cold,2,Warmth from work melts deadpan,Fighting→Ice
+Reach,Grind,2,High ground disrupts the grind,Flying→Fighting
+Reach,Vibe,2,Wide broadcast drowns aesthetics,Flying→Grass
+Reach,Troll,2,Visibility exposes trolls,Flying→Bug
+Roots,Troll,2,Culture eats chaos,Ground→Poison
+Roots,Tech,2,Deep knowledge grounds technology,Ground→Electric
+Roots,Solid,2,Underground erosion breaks rock,Ground→Rock
+Roots,Hype,2,Cultural foundation outlasts trends,Ground→Fire
+Chill,Hype,2,Calm extinguishes fire,Water→Fire
+Chill,Solid,2,Flow erodes stubbornness,Water→Rock
+Chill,Roots,2,Flow permeates deep earth,Water→Ground
+Vibe,Chill,2,Aesthetic soothes calm into depth,Grass→Water
+Vibe,Roots,2,Wellness grows from culture,Grass→Ground
+Vibe,Solid,2,Organic life cracks the stoniest take,Grass→Rock
+Troll,Vibe,2,Chaos ruins aesthetics,Poison→Grass
+Troll,Deep,2,Nihilism undermines philosophy,Poison→Psychic (thematic)
+Troll,Chat,2,Chaos disrupts conversation,Poison→Normal (thematic)
+Deep,Grind,2,Psychology dismantles pure hustle,Psychic→Fighting
+Deep,Troll,2,Insight sees through chaos,Psychic→Poison
+Dark,Dark,2,Shadow exploits shadow,Ghost→Ghost
+Dark,Glitch,2,Shadow exploits anomalies,Ghost→Bug (thematic)
+Glitch,Vibe,2,Bugs corrupt aesthetics,Bug→Grass
+Glitch,Troll,2,Glitches amplify chaos,Bug→Poison
+Glitch,Deep,2,Anomalies break thought patterns,Bug→Psychic
+Elite,Elite,2,Apex bots challenge each other,Dragon→Dragon
+Chat,Chat,0.5,Self-talk diminishes,Normal→Normal (no — actually Normal has no resists. Thematic choice.)
+Chat,Solid,0.5,Banter bounces off hard facts,Normal→Rock
+Chat,Roots,0.5,Small talk doesn't move culture,Normal→Ground (thematic)
+Chat,Elite,0.5,Casual content bounces off prestige,Normal→Dragon (thematic)
+Grind,Vibe,0.5,Hustle can't disrupt aesthetics,Fighting→Grass (thematic)
+Grind,Deep,0.5,Brute force can't break a philosopher,Fighting→Psychic
+Grind,Glitch,0.5,Grinding doesn't debug well,Fighting→Bug (thematic)
+Reach,Solid,0.5,Broadcast bounces off hard data,Flying→Rock
+Reach,Tech,0.5,Signal dampened by technical defense,Flying→Electric
+Troll,Solid,0.5,Chaos can't beat hard evidence,Poison→Rock
+Troll,Dark,0.5,Two chaotic energies resist,Poison→Ghost (thematic)
+Troll,Troll,0.5,Trolls partially resist trolls,Poison→Poison
+Troll,Roots,0.5,Culture absorbs chaos,Poison→Ground
+Roots,Vibe,0.5,Cultural weight actually supports aesthetics,Ground→Grass
+Hype,Hype,0.5,Hype resists hype,Fire→Fire
+Hype,Dark,0.5,Fire partially resisted by darkness,Fire→Rock (thematic)
+Hype,Elite,0.5,Raw energy resisted by prestige,Fire→Dragon
+Hype,Roots,0.5,Trends can't uproot deep culture,"Fire→Water (thematic, reversed)"
+Chill,Chill,0.5,Calm absorbs calm,Water→Water
+Chill,Vibe,0.5,Calm doesn't disrupt aesthetics,Water→Grass
+Chill,Elite,0.5,Chill resisted by elite,Water→Dragon
+Vibe,Hype,0.5,Aesthetics partly resist energy,Grass→Fire
+Vibe,Troll,0.5,Positivity resists trolling,Grass→Poison
+Vibe,Reach,0.5,Vibe absorbed by broadcast,Grass→Flying
+Vibe,Glitch,0.5,Aesthetics partially resist anomalies,Grass→Bug
+Vibe,Vibe,0.5,Aesthetic resists aesthetic,Grass→Grass
+Tech,Tech,0.5,Signal dampens signal,Electric→Electric
+Tech,Elite,0.5,Tech resisted by prestige,Electric→Dragon
+Tech,Vibe,0.5,Technology partially resisted by vibes,Electric→Grass
+Tech,Hype,0.5,Algorithm slightly resisted by energy,Electric→Fire (thematic)
+Deep,Chat,0.5,Philosophy overcomplicates small talk,Psychic→Normal (thematic)
+Deep,Deep,0.5,Minds resist each other,Psychic→Psychic
+Deep,Elite,0.5,Intelligence resisted by sheer prestige,Psychic→Dragon (thematic)
+Deep,Glitch,0.5,Thought partially resisted by anomaly,Psychic→Bug
+Cold,Cold,0.5,Dry wit deflects dry wit,Ice→Ice
+Cold,Chill,0.5,Coldness absorbed by calm,Ice→Water
+Cold,Glitch,0.5,Freezing resisted by unstable systems,Ice→Fire (thematic)
+Cold,Dark,0.5,Cold partially resisted by darkness,Ice→Ghost (thematic)
+Elite,Hype,0.5,Elite resists fire/energy,Dragon→Fire
+Elite,Chill,0.5,Elite resists water/calm,Dragon→Water
+Elite,Tech,0.5,Elite resists signal,Dragon→Electric
+Elite,Vibe,0.5,Elite resists aesthetic,Dragon→Grass
+Dark,Grind,0.5,Shadow resists hustle,Ghost→Fighting
+Dark,Troll,0.5,Shadow resists chaos,Ghost→Poison
+Dark,Roots,0.5,Shadow resists culture,Ghost→Ground (thematic)
+Dark,Hype,0.5,Shadow resists fire,Ghost→Fire (thematic)
+Dark,Chill,0.5,Shadow resists calm,Ghost→Water (thematic)
+Solid,Grind,0.5,Stubbornness resists hustle,Rock→Fighting
+Solid,Deep,0.5,Cold data doesn't penetrate philosophy,Rock→Psychic (thematic)
+Solid,Dark,0.5,Solid resists shadow,Rock→Ghost (thematic)
+Glitch,Hype,0.5,Anomaly can't disrupt raw energy,Bug→Fire
+Glitch,Reach,0.5,Signal dampened by broadcast range,Bug→Flying

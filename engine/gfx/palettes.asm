@@ -578,25 +578,32 @@ SendSGBPackets:
 	jp SendSGBPacket
 
 InitCGBPalettes:
-	ld a, $80 ; index 0 with auto-increment
+; Load the first 8 SuperPalettes into both BG and OBJ (sprite) CGB palette registers.
+; Each palette = 4 colors × 2 bytes = 8 bytes. 8 palettes × 8 bytes = 64 bytes total.
+; BG palettes control backgrounds/tiles; OBJ palettes control sprites.
+; Sprites use OBJ palette slot (MonsterPalette index & 7) via OAM attribute bits 0-2.
+
+	; --- Background palettes ---
+	ld a, $80             ; index 0, auto-increment enabled
 	ldh [rBGPI], a
-	inc hl
-	ld c, $20
-.loop
+	ld hl, SuperPalettes
+	ld c, 8 * 8           ; 8 palettes × 8 bytes
+.bgLoop
 	ld a, [hli]
-	inc hl
-	add a
-	add a
-	add a
-	ld de, SuperPalettes
-	add e
-	jr nc, .noCarry
-	inc d
-.noCarry
-	ld a, [de]
 	ldh [rBGPD], a
 	dec c
-	jr nz, .loop
+	jr nz, .bgLoop
+
+	; --- OBJ (sprite) palettes — same data ---
+	ld a, $80             ; index 0, auto-increment enabled
+	ldh [rOBPI], a
+	ld hl, SuperPalettes
+	ld c, 8 * 8
+.objLoop
+	ld a, [hli]
+	ldh [rOBPD], a
+	dec c
+	jr nz, .objLoop
 	ret
 
 EmptyFunc3:

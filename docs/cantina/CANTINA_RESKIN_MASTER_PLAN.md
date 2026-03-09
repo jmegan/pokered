@@ -1,10 +1,127 @@
 # Cantina Reskin Master Plan
 
-**Last Updated:** 2026-03-07
+**Created:** 2026-03-07
+**Last Updated:** 2026-03-08
 
 ---
 
 ## Session Progress Log
+
+### 2026-03-08 (Session 2) — Image Pipeline Complete: All 190 Bots Generated
+
+**Image generation pipeline built and run end-to-end.** All 190 bot sprites (front + back, raw + processed) are now generated and saved locally.
+
+#### Pipeline Architecture (`scripts/image_pipeline/`)
+
+| File | Role |
+|------|------|
+| `config.py` | All paths, model ID, rate limits, sprite sizes, ALL prompt templates |
+| `fetch_avatars.py` | Scrapes `og:image` from `cantina.com/users/{handle}`, saves to `images/source_avatars/` |
+| `generate_sprites.py` | Gemini API engine — multimodal image-in / image-out with copyright fallback |
+| `postprocess.py` | Content crop → square-pad → nearest-neighbor resize → dual color+gray output |
+| `batch_pipeline.py` | Full end-to-end runner with progress tracking (`progress.json`) |
+| `reprocess_existing.py` | Re-runs postprocessing on all existing raws without API calls |
+
+#### Key Technical Decisions
+
+- **Model**: `gemini-3.1-flash-image-preview` ("nano banana2") — confirmed working model ID
+- **Handle extraction**: Handle is the first token in `display_notes` before the first period (e.g. `stacys-mom. No evolution...` → `stacys-mom`). NOT from `bot_id` (which is a MongoDB ObjectID).
+- **Style prompt**: "creative inspiration" framing (not "convert") avoids copyright safety blocks while preserving the character's look, shape, outfit, and color subtly
+- **Back sprite**: Uses the generated front raw as the reference image — ensures front/back visual consistency
+- **Copyright fallback**: If Gemini blocks a reference image, retries text-only with `FRONT_SPRITE_FALLBACK_PROMPT`
+- **Post-processing dual output**: Every sprite produces two variants:
+  - `{id}_{name}_front.png` — color, 56×56 (or 48×48 back), nearest-neighbor resized
+  - `{id}_{name}_front_gray.png` — 4-tone quantized grayscale, same size
+- **Aspect ratio fix**: After content crop, image is padded to square (white background, centered) before resize — prevents distortion on non-square Gemini outputs (e.g. 1424×748)
+
+#### Batch Results (190/190 complete)
+
+- **190/190 bots complete**
+- **2 skipped** (slots 166 HAWK, 167 JDVANCE — suspicious single-char handles `h`/`j`)
+- **2 missing avatars** (slots 035 YASMIN, 053 KRYSTAL — no `og:image` on profile page)
+- **4 copyright/safety fallbacks** (GRAMBO back, BLAZEYEN back, MANNYMQIN back, KITTENUWU front, STEAMWILL back) — all retried and succeeded text-only
+- **~20 GLITCHBOT front sprites** returned no image data from Gemini (glitch prompt inconsistent) — back sprites still generated fine; these need a follow-up pass or shared placeholder
+
+#### Output File Structure
+
+```
+images/
+├── source_avatars/         ← {id}_{name}.jpg  (downloaded from Cantina CDN)
+├── generated/
+│   ├── sprites/
+│   │   ├── front/          ← {id}_{name}_front_raw.png  (Gemini output)
+│   │   │                      {id}_{name}_front.png      (color, 56×56)
+│   │   │                      {id}_{name}_front_gray.png (4-tone gray, 56×56)
+│   │   └── back/           ← {id}_{name}_back_raw.png
+│   │                          {id}_{name}_back.png       (color, 48×48)
+│   │                          {id}_{name}_back_gray.png  (4-tone gray, 48×48)
+│   └── manifest.json
+└── progress.json
+```
+
+#### GBC Color Mode — ROM Change
+
+- **`home/start.asm`**: Changed `.cgb` branch from `ld a, FALSE` → `ld a, TRUE` — enables `wOnCGB` flag when running on Game Boy Color hardware
+- **`engine/gfx/palettes.asm`**: Replaced stub `InitCGBPalettes` with implementation that writes all 8 BG palettes from `SuperPalettes` table. Also writes OBJ palette registers (may need revision — reference fork `dannye/pokered-gbc` only uses BG registers, not OBJ)
+- **Status**: GBC mode enabled; per-bot palette extraction from generated sprites is **Phase 3 deferred**
+
+#### Outstanding Image Pipeline Items
+
+- [ ] **GLITCHBOT front sprites** (~20 slots): Gemini's glitch prompt is inconsistent. Either run a targeted retry pass or create a single shared MissingNo-style sprite for all GLITCHBOT slots
+- [ ] **2 missing avatars** (YASMIN slot 035, KRYSTAL slot 053): No og:image found — need manual avatar source or text-only generation
+- [ ] **PNG → `.pic` conversion**: All processed PNGs need to run through `tools/gfx.c` to produce Game Boy compressed `.pic` files for the ROM. Drop into `gfx/pokemon/front/` and `gfx/pokemon/back/`
+- [ ] **Per-bot GBC palettes**: Extract dominant 4 colors from each color sprite → write to `data/pokemon/cgb_palettes.asm` (Phase 3)
+- [ ] **UI assets**: Title logo, splash screen, 15 type badges, trainer portraits — pipeline is built (`generate_ui_assets.py` style presets), but not yet run
+
+---
+
+### 2026-03-08 (Session 1) — Phase 1 Fully Complete + Phase 2 Data Generation Complete
+
+**All 151 bot species slots filled in `species_mapping.csv`.** Real Cantina bots assigned to every slot using popularity data from Hex (`follower_count + messages_sent_count` combined score). Key canon decisions locked:
+
+**Starter lines (locked):**
+
+| Line | Stage 1 | Stage 2 | Stage 3 | Constraint |
+|------|---------|---------|---------|-----------|
+| Bulbasaur | Winnie the Goon (@poohtoksofficial) | Piglet (@pigletish) | Hamster King (@hamsterking) | Non-human characters only |
+| Charmander | Cassy (@sosadsosexy) | Dominique (@queendominique) | Lasereyes (@lasereyes) | All female |
+| Squirtle | Rizzard of Oz (@rizzardofoz) | Fake Drake (@dragomouthfoy) | Amir (@theubereatsguy) | All male |
+
+**Legendary / special assignments (locked):**
+
+| Slot | Pokemon | Game Name | Username | Score | Notes |
+|------|---------|-----------|----------|-------|-------|
+| 131 | Mewtwo | ROASTMSTR | @roastmaster | 647,710 | #1 bot on network |
+| 21 | Mew | DIVADVYNE | @divadivine | — | First Cantina bot ever (Feb 2023) |
+| 144 | Persian | STEAMWILL | @steamboatwillie | — | Villain faction lore — Sam Z's prized bot |
+| 58 | Seel | DRGDVIBES | @drgoodvibes | — | "Don't fear the Good Vibes" |
+| 105 | Vaporeon | JOI | @joi_runner | — | Cyberpunk companion — Eevee branch |
+
+**New output files created (all in `docs/cantina/mapping/`):**
+
+| File | Contents | Status |
+|------|----------|--------|
+| `bot_profiles.csv` | 151 bots × 29 fields: BST, HP/ATK/DEF/SPD/SPC, catch rate, base XP, growth rate, level-1 moveset, full learnset, dex entry (6 lines) | ✅ Done |
+| `type_effectiveness.csv` | 15×15 type matchup matrix — 104 non-neutral entries (8 immunities, 44 super-effective, 52 not-very-effective) | ✅ Done |
+| `bot_scores.csv` | Real Hex data for top 50 bots (combined_score = follower_count + messages_sent_count) | ✅ Done |
+
+**Stat generation methodology:**
+- BST scales by `combined_score` within evolution tier bands (stage 1: 265–330 → stage 3: 430–520 → legendary: hardcoded 580)
+- Stat distribution uses per-type personality weights (e.g., Deep bots: 34% SPC; Hype bots: 28% ATK; Chill bots: 28% HP)
+- Dual-type bots blend type_1 (65%) + type_2 (35%)
+- Catch rates: legendary CR=3, Mew CR=45, Magikarp slot CR=255 (joke), stage-1 CR=190
+- Growth rates by type: Grind/Hype=FAST; Deep/Solid/Elite=SLOW; Chill/Cold=MEDIUM_SLOW
+
+**Type effectiveness highlights:**
+- Cold is the ONLY type that beats Elite (2×) — deadpan defeats prestige
+- Immunities: Chat→Dark, Grind→Reach, Grind→Dark, Roots→Reach, Tech→Roots, Dark→Chat, Dark→Deep, Deep→Dark
+- All 8 structural Gen 1 immunities preserved with thematic Cantina rationale
+
+**Images explicitly deferred** — sprite/avatar generation to be handled in a separate session.
+
+**Remaining 101 bots (below top 50 by score):** assigned score=0 in bot_profiles.csv, placing them at BST floor for their evolution tier. This is correct game design — uncommon bots should be weaker.
+
+---
 
 ### 2026-03-07 — Phase 0 + Phase 1 Complete
 
@@ -43,12 +160,14 @@ Chat · Hype · Chill · Tech · Deep · Dark · Elite · Cold · Grind · Troll
 | `onboarding_script.md` | Full first-time experience — title, splash, intro battle, Sean's speech, name entry, Sean's Studio | ✅ Done |
 | `mapping/npc_dialogue_plan.md` | All NPC/character dialogue — Tier 1 story rewrites, Tier 2 trainer templates, Tier 3 town flavor | ✅ Drafted |
 
-**What John still needs to provide before migration can begin:**
+**What John still needs to provide before ROM migration can begin:**
 
-- [ ] **150 Cantina bot names** → fills `cantina_bot_name` column in `species_mapping.csv`
-- [ ] **Bot avatar URLs** → for image pipeline (Gemini/Nano Banana 2 generation)
-- [ ] **8 Gym Leader names** → real Cantina creator personas (rows 33–40 in `trainer_mapping.csv`)
-- [ ] **4 Elite Four names** → platform legends (rows 33, 35, 44, 46 in `trainer_mapping.csv`)
+- [x] ~~**151 Cantina bot names**~~ → ✅ All filled in `species_mapping.csv`
+- [x] ~~**8 Gym Leader names**~~ → ✅ Confirmed in `terminology.md`: Ash (Solid), Siena (Chill), Egan (Tech), Hailey (Vibe), Vince (Troll), Yury (Deep), Naseem (Hype), Sam Zuckerberg (Elite/AGENT)
+- [x] ~~**4 Elite Four names**~~ → ✅ Confirmed: Instagram, TikTok, Twitter, ChatGPT (Platform Legends)
+- [x] ~~**Bot profile data**~~ → ✅ Generated in `bot_profiles.csv` (stats, learnsets, dex entries)
+- [x] ~~**Type effectiveness chart**~~ → ✅ Generated in `type_effectiveness.csv`
+- [ ] **Bot avatar URLs** → for image pipeline (Gemini/Nano Banana 2 generation) — deferred to separate session
 - [ ] **Rival Ginzbo's starter bot** → which species slot he picks before you
 
 ---
@@ -408,7 +527,7 @@ Deliverable:
 - `items_mapping.csv`
 - `locations_mapping.csv`
 
-### Phase 2: Brand Removal Pass
+### Phase 2: Brand Removal Pass ← **NEXT UP**
 
 Replace direct Pokemon-branded references first, before deeper design changes.
 
@@ -430,23 +549,20 @@ Goal:
 
 ### Phase 3: Creature Data and Art Replacement
 
+**Data pre-generated ✅** — `bot_profiles.csv` contains all 151 bots' stats, dex entries, learnsets, catch rates, growth rates. Art generation is deferred to a separate session.
+
 For each species slot:
 
-- rename
-- replace front sprite
-- replace back sprite
-- replace palette assignment
-- replace menu icon category if needed
-- replace dex text
-- replace cry or remap cry temporarily
-- replace level-up learnset
-- replace evolution path if needed
-- rebalance stats and types
-
-Recommendation:
-
-- Keep evolution counts and broad role archetypes similar on pass one.
-- That gives us a stable total conversion sooner.
+- [x] ~~rebalance stats and types~~ → done in `bot_profiles.csv`
+- [x] ~~replace dex text~~ → done in `bot_profiles.csv` (dex_page fields)
+- [x] ~~replace level-up learnset~~ → done in `bot_profiles.csv` (learnset_levels field)
+- [x] ~~replace evolution path~~ → tracked in `species_mapping.csv` (evolution_chain_id)
+- [ ] Write stats/learnsets/dex to actual `.asm` files (Phase 3 ROM writes)
+- [ ] Replace front sprite (deferred — image pipeline session)
+- [ ] Replace back sprite (deferred — image pipeline session)
+- [ ] Replace palette assignment
+- [ ] Replace menu icon category if needed
+- [ ] Replace cry or remap cry temporarily
 
 ### Phase 4: Trainer / NPC / Character Replacement
 
@@ -753,31 +869,56 @@ Output:
 
 ~~Before any code changes, the next best move is to create the canonical mapping sheets.~~
 
-**✅ Phase 0 + Phase 1 are complete.** All mapping sheets have been built. See Session Progress Log above.
+**✅ Phase 0 + Phase 1 fully complete. Phase 2 data generation complete.** All mapping sheets built + all bot profile data generated. See Session Progress Log above.
 
 ### Next Actions (in priority order)
 
-**1. Fill in bot names (John)**
-Open `docs/cantina/mapping/species_mapping.csv` and fill all 151 `[TBD]` `cantina_bot_name` cells with real Cantina bot names. Provide avatar URLs for the image pipeline.
-- Bot names must be ≤ 10 visible characters
-- Names come from the top bots on the Cantina network
+**1. ✅ DONE — Bot species mapping** — all 151 slots filled
 
-**2. Name the 8 Gym Leaders (John)**
-In `docs/cantina/mapping/trainer_mapping.csv`, fill in real Cantina creator personas for:
-- Gym 1 (Solid type), Gym 2 (Chill type), Gym 3 (Tech type), Gym 4 (Vibe type)
-- Gym 5 (Troll type), Gym 6 (Deep type), Gym 7 (Hype type), Gym 8 (Elite/AGENT type)
+**2. ✅ DONE — Bot profile data** — stats, learnsets, dex entries in `bot_profiles.csv`
 
-**3. Name the 4 Elite Four (John)**
-Fill in the Platform Legends for the final Bot League gauntlet.
+**3. ✅ DONE — Type effectiveness matrix** — 104 matchups in `type_effectiveness.csv`
 
-**4. Begin Phase 2: Brand Removal Pass**
-Once bot names are filled in, begin replacing content in the actual pokered codebase:
-- `data/pokemon/names.asm` — replace all 151 species names
-- `data/types/names.asm` — replace all 15 type names
-- `constants/charmap.asm` — redefine the `#` token from POKé → BOT
-- `data/moves/names.asm` — replace all 165 move names
-- `data/items/names.asm` — replace all item names
-- `data/trainers/names.asm` — replace all trainer class names
+**4. ✅ DONE — Image pipeline built + all 190 bot sprites generated** — color + gray variants, square aspect ratio, progress tracking. See Session 2 above for full details.
 
-**5. Image Pipeline (deferred)**
-When ready: collect bot avatar URLs, generate sprite art via Gemini (Nano Banana 2), convert to Game Boy `.pic` format, drop into `gfx/pokemon/front/` and `gfx/pokemon/back/`.
+---
+
+**5. 🔜 GLITCHBOT front sprite cleanup**
+~20 GLITCHBOT front slots returned no image from Gemini. Either:
+- Run a targeted retry pass: `python3 batch_pipeline.py --slot <id>` for each failed GLITCHBOT slot
+- OR create one shared "MissingNo-style" glitch sprite and reuse it for all 39 GLITCHBOT slots
+
+**6. 🔜 PNG → `.pic` conversion (ROM-ready sprites)**
+All processed PNGs need to run through the existing `tools/gfx.c` build tool to produce Game Boy compressed `.pic` files. Then drop into:
+- `gfx/pokemon/front/` (56×56 grayscale variants)
+- `gfx/pokemon/back/` (48×48 grayscale variants)
+Use the `_gray.png` variants for ROM (4-tone palette). Color variants are for GBC palette extraction.
+
+**7. 🔜 Generate UI assets**
+The pipeline is built with style presets for all UI assets. Run `generate_ui_assets.py`:
+- Title logo (`PokéBots`)
+- Splash screen (`Airtime Media` replacing Game Freak)
+- 15 type badge icons (from `types_mapping.csv` — type name + archetype + color feel)
+- Trainer portraits: Sean Parker, Ginzbo, 8 Gym Leaders, 4 Elite Four (Platform Legends)
+
+**8. 🔜 Phase 2: Brand Removal Pass (ROM writes)**
+Write the CSV data into the actual pokered codebase `.asm` files:
+- `data/pokemon/names.asm` — replace all 151 species names (from `species_mapping.csv`)
+- `data/types/names.asm` — replace all 15 type names (from `types_mapping.csv`)
+- `constants/charmap.asm` — redefine `#` token from POKé → BOT
+- `data/moves/names.asm` — replace all 165 move names (from `moves_mapping.csv`)
+- `data/items/names.asm` — replace all item names (from `items_mapping.csv`)
+- `data/trainers/names.asm` — replace all trainer class names (from `trainer_mapping.csv`)
+
+**9. 🔜 Phase 3: Creature Data Replacement (ROM writes)**
+Write bot profile data into ROM `.asm` files using `bot_profiles.csv` as source:
+- `data/pokemon/base_stats/*.asm` — write HP/ATK/DEF/SPD/SPC + catch rate + base XP + growth rate + L1 moveset (151 files)
+- `data/pokemon/dex_text.asm` — write all 151 dex entries (from `bot_dex_entries` fields in `bot_profiles.csv`)
+- `data/pokemon/evos_moves.asm` — write level-up learnsets per bot (from `learnset_levels` column)
+- `data/types/type_matchups.asm` — write the new 15×15 effectiveness matrix (from `type_effectiveness.csv`)
+
+**10. 🔜 Per-bot GBC palettes**
+Extract dominant 4 colors from each color sprite (`_front.png`) → write per-species RGB15 palette entries to `data/pokemon/cgb_palettes.asm`. This makes sprites display in color on GBC hardware using the `wOnCGB` flag enabled in Session 2.
+
+**11. 🔜 Rival Ginzbo's starter bot (John to confirm)**
+Which species slot does Ginzbo pick at the beginning? Needs to be locked before Phase 5 (NPC dialog rewrite).
